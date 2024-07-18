@@ -1,7 +1,14 @@
+import Carousel_Custom from "../components/Carousel_Custom";
+import Events from "../components/Events";
+
+
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1> Hello Devs! ^^ </h1>
-    </main>
+    <>
+      <Carousel_Custom/>
+      <Events/>
+    </>
+
   );
 }

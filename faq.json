@@ -1,0 +1,96 @@
+{
+    "hackathon":[
+        {
+            "id":1,
+            "faq_ques":"Are there any prizes involved?",
+            "faq_ans":"Yes, there are bunch of prizes involved and also some goodies and merchandises like t-shirts and sweatshirts"
+        },
+        {
+            "id":2,
+            "faq_ques":"What are the eligibility criteria?",
+            "faq_ans":"To participate in the hackathon, you must be 18 years or older, have a computer, internet connection, and a good sense of humor."
+        },
+        {
+            "id":3,
+            "faq_ques":"When and where is the hackathon taking place?",
+            "faq_ans":"The hackathon will be taking place on October 12th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+        },
+        {
+            "id":4,
+            "faq_ques":"How much does the registration fee include?",
+            "faq_ans":"The registration fee includes admission to the hackathon, food, and accommodation."
+        },
+        {
+            "id":5,
+            "faq_ques":"What is the format of the hackathon?",
+            "faq_ans":"The hackathon will be a 3-hour event with a focus on innovation, creativity, and problem-solving."
+        },{
+            "id":6,
+            "faq_ques":"What are the rules for the hackathon?",
+            "faq_ans":"The rules for the hackathon will be provided at the beginning of the event. All participants must follow the rules to ensure a fair and enjoyable experience."
+        }
+    ],
+    "workshop":[
+        {
+            "id":1,
+            "faq_ques":"What are the topics for the workshops?",
+            "faq_ans":"The workshops will cover various topics such as Python programming, web development, machine learning, and data analysis."
+        },
+        {
+            "id":2,
+            "faq_ques":"How much does the workshop registration fee include?",
+            "faq_ans":"The workshop registration is completely free."
+        },
+        {
+            "id":3,
+            "faq_ques":"When and where is the workshop taking place?",
+            "faq_ans":"The workshops will be taking place on October 13th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+        },
+        {
+            "id":4,
+            "faq_ques":"What are the prerequisites for attending the workshops?",
+            "faq_ans":"To attend the workshops, you must have a computer, internet connection, and a good sense of humor."
+        },{
+            "id":5,
+            "faq_ques":"What are the benefits of attending the workshops?",
+            "faq_ans":"Attending the workshops will help you learn new skills, expand your knowledge, and have a fun and engaging experience."
+        },
+        {
+            "id":6,
+            "faq_ques":"How can I get in touch with the organizers?",
+            "faq_ans":"You can contact the organizers by emailing them at  info@technologicalinstituteofhamirpur.com or by filling out a contact form at the website."
+        }
+    ],
+    "coding_contest":[
+        {
+            "id":1,
+            "faq_ques":"What are the rules for the coding contest?",
+            "faq_ans":"The rules for the coding contest will be provided at the beginning of the event. All participants must follow the rules to ensure a fair and enjoyable experience."
+        },
+        {
+            "id":2,
+            "faq_ques":"How much does the coding contest registration fee include?",
+            "faq_ans":"The coding contest registration is completely free."
+        },
+        {
+            "id":3,
+            "faq_ques":"When and where is the coding contest taking place?",
+            "faq_ans":"The coding contest will be taking place on October 14th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+        },
+        {
+            "id":4,
+            "faq_ques":"What are the prizes for the coding contest?",
+            "faq_ans":"The prizes for the coding contest will be provided at the end of the event."
+        },
+        {
+            "id":5,
+            "faq_ques":"How can I get in touch with the organizers?",
+            "faq_ans":"You can contact the organizers by emailing them at  info@technologicalinstituteofhamirpur.com or by filling out a contact form at the website."
+        },
+        {
+            "id":6,
+            "faq_ques":"What are some common coding problems to solve?",
+            "faq_ans":"Some common coding problems to solve include sorting arrays, finding the maximum value, and implementing a binary search algorithm."
+        }
+    ]
+}
