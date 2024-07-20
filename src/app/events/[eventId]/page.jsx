@@ -30,7 +30,7 @@ const page = () => {
             </div>
             <div className='flex flex-col items-center gap-4'>
                 <div className='flex gap-2 justify-center items-center'>
-                    <p className='md:text-4xl text-center text-xl font-bold '>
+                    <p className='md:text-4xl text-center text-xl font-bold mr-1'>
                         {event.event_type}
                     </p>
                     <div className="bg-gradient-to-br from-gray-300 to-slate-700 w-2 h-6" />
@@ -39,7 +39,7 @@ const page = () => {
                         {event.long_date}
                     </p>
                 </div>
-                <Button className="md:w-60 w-40 rounded-full text-md md:text-lg font-semibold" variant={"outline"}>
+                <Button className="md:w-60 w-40 rounded-full mb-2 text-md md:text-lg font-semibold" variant={"outline"}>
                     Register
                 </Button>
             </div>

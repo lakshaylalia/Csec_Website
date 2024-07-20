@@ -34,7 +34,7 @@ const Events = () => {
             <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mx-8">
                 {
                     events.map((event) => (
-                        <Card key={event.event} className="w-[350px]">
+                        <Card key={event.event} className="md:w-[350px] w-[250px]">
                             <CardHeader className="flex justify-center items-center">
                                 <CardTitle>{event.event}</CardTitle>
                                 <CardDescription className={inria.className}>{event.desc}.</CardDescription>

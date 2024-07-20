@@ -8,7 +8,7 @@ import { Carousel,CarouselContent,CarouselItem } from './ui/carousel';
 
 const Carousel_Custom = () => {
     return (
-        <>
+        <div className='flex flex-col justify-center'>
             <div className=' flex gap-2 items-center mx-8 mt-12 mb-4 md:mb-6'>
                 <div className="bg-gradient-to-br from-gray-300 to-slate-700 w-2 h-7">
                 </div>
@@ -20,7 +20,7 @@ const Carousel_Custom = () => {
                 <div className="bg-gray-500 mr-20 w-full h-screen my-4 ml-4 hidden lg:block">
                     {/* stats */}
                 </div>
-                <Carousel plugins={[Autoplay({ delay: 2000 })]} className="w-full items-center max-w-lg">
+                <Carousel plugins={[Autoplay({ delay: 2000 })]} className="w-full justify-center items-center max-w-full">
                     <CarouselContent>
                         {
                             events.map((event, i) => (
@@ -43,7 +43,7 @@ const Carousel_Custom = () => {
                     {/* {stats} */}
                 </div>
             </main>
-        </>
+        </div>
     )
 }
 
