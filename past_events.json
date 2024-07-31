@@ -1,0 +1,30 @@
+[
+    {
+        "event":"Hackathon",
+        "image":"https://images.unsplash.com/photo-1720125480125-d206de86a20f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date":"2024-08-22",
+        "desc":"Meet new people and build projects",
+        "long_desc":"A hackathon is an event, typically lasting between a day and a week, in which individuals or teams collaborate intensively on software projects. Hackathons are often organized around a specific theme or goal, such as developing solutions for a particular industry, creating innovative applications, or addressing societal challenges. Participants, who can range from developers and designers to entrepreneurs and students, work together to brainstorm, prototype, and present their projects within the given time frame.",
+        "long_date":"August 22,2024",
+        "event_type":"Virtual Event"
+    },
+    {
+        "event":"Workshop",
+        "image":"https://images.unsplash.com/photo-1610307390744-b55e7ca781d1?q=80&w=1873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date":"2024-10-15",
+        "desc":"Join to explore new technology",
+        "long_desc":"A workshop is an educational session where participants engage in interactive learning through discussions, activities, and hands-on practice. Workshops are typically designed to teach specific skills, concepts, or techniques and are led by experts or facilitators in the relevant field. They are suitable for various settings, including professional development, academic environments, community education, and creative endeavors.",
+        "long_date":"October 15,2024",
+        "event_type":"Offline Event"
+    },
+    {
+        "event":"Coding",
+        "image":"https://images.unsplash.com/photo-1720887236665-43caad593cdf?q=80&w=1836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date":"2024-12-15",
+        "desc":"Show off your coding skills to the world",
+        "long_desc":"A coding contest is a competitive event where individuals or teams solve programming challenges within a specified time frame. These contests test participants' problem-solving abilities, algorithmic skills, and coding proficiency. Coding contests are popular among students, professionals, and coding enthusiasts and can be conducted online or in person.",
+        "long_date":"December 15,2024",
+        "event_type":"Virtual Event"
+    }
+
+]
