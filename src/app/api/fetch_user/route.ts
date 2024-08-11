@@ -13,7 +13,7 @@ export async function POST(req: Request) {
         const team: any = []
         for (let i = 0; i < 10; i++) {
             let name: string
-            data[i].party.teamId?name=data[i].party.teamName:name = data[i].party.members[0].handle
+            name = data[i].party.teamId ? data[i].party.teamName : data[i].party.members[0].handle;
             let obj={"Rank":`${data[i].rank}`,"Name":`${name}`,"Score":`${data[i].points}`}
             team.push(obj)
         }
