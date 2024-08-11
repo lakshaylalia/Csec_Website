@@ -26,16 +26,17 @@ const page = () => {
     return (
         <>
             <div className='flex mx-auto max-h-[500px] px-10 mt-8 mb-4'>
-                <img className='h-300 mx-100 rounded-xl border border-b-4 shadow-md opacity-50' src={`${event.image}`} />
+                <img className='h-300 object-cover mx-100 rounded-xl border border-b-4 shadow-md opacity-50' src={`${event.image}`} />
             </div>
             <div className='flex flex-col items-center gap-4'>
                 <div className='flex gap-2 justify-center items-center'>
-                    <p className='md:text-4xl text-center text-xl font-bold mr-1'>
+                    <p className={'md:text-4xl text-center text-xl font-bold mr-1 '+(inria.className)}>
                         {event.event_type}
                     </p>
-                    <div className="bg-gradient-to-br from-gray-300 to-slate-700 w-2 h-6" />
+                    <div className="bg-gradient-to-br from-gray-300 to-slate-700 w-2 h-6">
+                        </div>
 
-                    <p className='md:text-4xl text-center text-xl font-bold'>
+                    <p className={'md:text-4xl text-center text-xl font-bold '+(inria.className)}>
                         {event.long_date}
                     </p>
                 </div>
