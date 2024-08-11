@@ -67,3 +67,6 @@
     @apply bg-background text-foreground;
   }
 }
+.custom-border-gradient {
+  border-image: linear-gradient(to right, #ff00ff, #00ffff, #00ff00) 1;
+}
