@@ -3,7 +3,7 @@ import { Inria_Sans } from "next/font/google";
 import Navbar from "../components/Navbar";
 export const metadata = {
   title: "CSEC",
-  description: "CSEC Website",
+  description: "CSEC Website ",
 };
 const inria2 = Inria_Sans({
   display: 'swap',
