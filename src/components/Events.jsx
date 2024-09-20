@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React from 'react'
 import { Inria_Serif } from "next/font/google";
 import events from "../../past_events.json"
 import {
@@ -28,7 +28,7 @@ const Events = () => {
                 <div className="bg-gradient-to-br from-gray-300 to-slate-700 w-2 h-7">
                 </div>
                 <h1 className={'text-3xl md:text-4xl font-bold '}>
-                    PAST EVENTS
+                    CURRENT EVENTS
                 </h1>
             </div>
             <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mx-8">
@@ -42,7 +42,7 @@ const Events = () => {
                             <CardContent className="flex flex-col">
                                 <img className="w-full rounded-xl" width={150} height={100} src={event.image} alt={event.event} />
                                 <div className="flex justify-between  mt-2">
-                                    <p className="">Date </p>
+                                    <p>Date </p>
                                     <p>{event.date}</p>
                                 </div>
 
