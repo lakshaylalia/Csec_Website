@@ -1,0 +1,147 @@
+[
+    {
+      "name": "Ridhi",
+      "batch": "Batch : 2024",
+      "imgSrc": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      
+      "instagram": "https://www.instagram.com/ridhi"
+    },
+    {
+      "name": "Aarish",
+      "batch": "Batch : 2024",
+      "imgSrc": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/aarish",
+      "instagram": "https://www.instagram.com/aarish"
+    },
+    {
+      "name": "Naman",
+      "batch": "Batch : 2023",
+      "imgSrc": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/naman",
+      "instagram": "https://www.instagram.com/naman"
+    },
+    {
+      "name": "Agrim",
+      "batch": "Batch : 2023",
+      "imgSrc": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/agrim",
+      "instagram": "https://www.instagram.com/agrim"
+    },
+    {
+      "name": "Aavya",
+      "batch": "Batch : 2023",
+      "imgSrc": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/aavya"
+      
+    },
+    {
+      "name": "Aariv",
+      "batch": "Batch : 2022",
+      "imgSrc": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/aariv",
+      "instagram": "https://www.instagram.com/aariv"
+    },
+    
+    {
+      "name": "John",
+      "batch": "Batch : 2021",
+      "imgSrc": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/john",
+      "instagram": "https://www.instagram.com/john"
+    },
+    {
+      "name": "Aman",
+      "batch": "Batch : 2024",
+      "imgSrc": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/aman",
+      "instagram": "https://www.instagram.com/aman"
+    },
+    {
+      "name": "Rahul",
+      "batch": "Batch : 2021",
+      "imgSrc": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/rahul",
+      "instagram": "https://www.instagram.com/rahul"
+    },
+    {
+      "name": "Harsh",
+      "batch": "Batch : 2022",
+      "imgSrc": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/harsh",
+      "instagram": "https://www.instagram.com/harsh"
+    },
+    {
+      "name": "Riya",
+      "batch": "Batch : 2022",
+      "imgSrc": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/riya",
+      "instagram": "https://www.instagram.com/riya"
+    },
+    {
+      "name": "Priya",
+      "batch": "Batch : 2023",
+      "imgSrc": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/priya",
+      "instagram": "https://www.instagram.com/priya"
+    },
+    {
+      "name": "Harry",
+      "batch": "Batch : 2022",
+      "imgSrc": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/harry",
+      "instagram": "https://www.instagram.com/harry"
+    },
+    {
+      "name": "Rohan",
+      "batch": "Batch : 2024",
+      "imgSrc": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/rohan",
+      "instagram": "https://www.instagram.com/rohan"
+    },
+    {
+      "name": "Kritika",
+      "batch": "Batch : 2022",
+      "imgSrc": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/kritika",
+      "instagram": "https://www.instagram.com/kritika"
+    },
+    {
+      "name": "Ishita",
+      "batch": "Batch : 2023",
+      "imgSrc": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/ishita",
+      "instagram": "https://www.instagram.com/ishita"
+    },
+    {
+      "name": "Ananya",
+      "batch": "Batch : 2021",
+      "imgSrc": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/ananya",
+      "instagram": "https://www.instagram.com/ananya"
+    },
+    {
+      "name": "Abhi",
+      "batch": "Batch : 2021",
+      "imgSrc": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imgAlt": "Card Image",
+      "linkedin": "https://www.linkedin.com/in/abhi"
+      
+    }
+  ]
