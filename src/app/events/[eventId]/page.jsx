@@ -5,7 +5,7 @@ import { Inria_Serif } from "next/font/google";
 import events from '../../../utils/past_events.json'
 import { Button } from '../../../components/ui/button'
 import faqs from "../../../utils/faq.json"
-import contact from '../../../utils/current_events.json'
+import contact from '../../../utils/contact.json'
 import {
     Accordion,
     AccordionContent,
@@ -52,7 +52,7 @@ const Event = () => {
                     {event.long_desc}
                 </p>
             </div>
-            <div className='flex flex-col mx-10 mt-8'>
+            <div className='flex flex-col justify-center items-center mx-10 mt-8'>
                 <h1 className='md:text-4xl text-xl font-semibold'>
                     FAQs
                 </h1>
@@ -60,7 +60,7 @@ const Event = () => {
                     event.event === "Hackathon" ? faqs.hackathon.map((faq, index) => (
                         <Accordion key={faq.id} type="single" collapsible className="w-full">
                             <AccordionItem value={faq.id}>
-                                <AccordionTrigger className="md:text-lg text-md">{faq.faq_ques}</AccordionTrigger>
+                                <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
                                 <AccordionContent className="md:text-lg text-md">
                                     {faq.faq_ans}
                                 </AccordionContent>
@@ -69,7 +69,7 @@ const Event = () => {
                     )) : event.event === "Workshop" ? faqs.workshop.map((faq, index) => (
                         <Accordion key={faq.id} type="single" collapsible className="w-full">
                             <AccordionItem value={faq.id}>
-                                <AccordionTrigger className="md:text-lg text-md">{faq.faq_ques}</AccordionTrigger>
+                                <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
                                 <AccordionContent className="md:text-lg text-md">
                                     {faq.faq_ans}
                                 </AccordionContent>
@@ -78,7 +78,7 @@ const Event = () => {
                     )) : event.event === "Coding" ? faqs.coding_contest.map((faq, index) => (
                         <Accordion key={faq.id} type="single" collapsible className="w-full">
                             <AccordionItem value={faq.id}>
-                                <AccordionTrigger className="md:text-lg text-md">{faq.faq_ques}</AccordionTrigger>
+                                <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
                                 <AccordionContent className="md:text-lg text-md">
                                     {faq.faq_ans}
                                 </AccordionContent>
