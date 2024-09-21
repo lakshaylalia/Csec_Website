@@ -19,7 +19,7 @@ const inria = Inria_Serif({
     subsets: ['latin'],
     weight: ["300", "400", "700"]
 })
-const page = () => {
+const Event = () => {
     const params = useParams()
     const { eventId: eventName } = params
     const event = events.find(event => event.event === eventName)
@@ -112,4 +112,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Event

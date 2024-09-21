@@ -16,8 +16,8 @@ const MasonaryGrid = () => {
     return (
         <>
             <div className='relative'>
-                <img src='/gallery-bg.svg' />
-                <h1 className={'text-4xl md:text-6xl absolute inset-0 bottom-10 flex items-center justify-center font-bold '}>
+                <img style={{opacity:0}} src='/gallery-bg.svg' />
+                <h1 className={'text-4xl md:text-6xl absolute inset-0 flex items-center justify-center font-bold '}>
                     GALLERY
                 </h1>
             </div>
