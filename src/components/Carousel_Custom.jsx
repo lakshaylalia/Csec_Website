@@ -1,7 +1,6 @@
 "use client"
-import React, { useEffect, useLayoutEffect, useState } from 'react'
-import Autoplay from "embla-carousel-autoplay"
-import events from "../../current_events.json"
+import React, { useEffect, useState } from 'react'
+import events from "../utils/current_events.json"
 import { Card, CardHeader } from "./ui/card";
 import { Carousel, CarouselContent, CarouselItem } from './ui/carousel';
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"

@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { Inria_Serif } from "next/font/google";
-import events from "../../past_events.json"
+import events from "../utils/past_events.json"
 import {
     Card,
     CardContent,

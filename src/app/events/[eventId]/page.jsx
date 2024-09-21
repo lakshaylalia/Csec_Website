@@ -2,10 +2,10 @@
 import { useParams } from 'next/navigation'
 import React from 'react'
 import { Inria_Serif } from "next/font/google";
-import events from '../../../../past_events.json'
+import events from '../../../utils/past_events.json'
 import { Button } from '../../../components/ui/button'
-import faqs from "../../../../faq.json"
-import contact from '../../../../contact.json'
+import faqs from "../../../utils/faq.json"
+import contact from '../../../utils/current_events.json'
 import {
     Accordion,
     AccordionContent,
