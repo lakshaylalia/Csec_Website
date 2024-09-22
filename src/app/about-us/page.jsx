@@ -20,7 +20,7 @@ const About = () => {
         <img src="/about_us.jpg" className="rounded-2xl" />
       </div>
       <div className="flex-1 flex-col">
-        <h1 className={"text-3xl lg:text-6xl pt-10 pl-10 font-bold text-gray-400 " + (inria.className)}>
+        <h1 className={"text-3xl lg:text-6xl pt-10 pl-8 font-bold text-gray-400 " + (inria.className)}>
           ABOUT US
         </h1>
         <p className="text-xl lg:text-3xl pl-8 pt-2 text-gray-300">What makes us unique?</p>

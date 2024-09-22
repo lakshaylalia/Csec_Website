@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import events from "../utils/current_events.json"
 import { Card, CardHeader } from "./ui/card";
-import { Carousel, CarouselContent, CarouselItem } from './ui/carousel';
+import { Carousel, CarouselContent, CarouselItem,CarouselNext,CarouselPrevious, } from './ui/carousel';
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { Star } from 'lucide-react';
 import { Inria_Sans, Inria_Serif } from 'next/font/google';
@@ -139,6 +139,8 @@ const Carousel_Custom = () => {
                             ))
                         }
                     </CarouselContent>
+                    <CarouselPrevious />
+                    <CarouselNext  />
                 </Carousel>
 
                 <div className=" ml-10 my-4 mr-4 hidden lg:block w-full h-screen">

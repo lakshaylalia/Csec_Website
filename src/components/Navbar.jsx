@@ -18,7 +18,6 @@ export default function Navbar() {
         { title: "Home", path: "/" },
         { title: "Gallery", path: "/gallery" },
         { title: "Alumni", path: "/alumni" },
-        { title: "Contact", path: "/contact" },
     ]
 
     return (
@@ -26,7 +25,7 @@ export default function Navbar() {
     <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center gap-4 md:justify-end justify-between py-3 md:py-5 md:block">
             <Link href="/">
-                <img src="csec.svg" />
+                <img src="csec.svg" alt="Logo" />
             </Link>
             <div className="md:hidden">
                 <button
@@ -45,9 +44,9 @@ export default function Navbar() {
             } w-1/2 md:hidden`}
         >
             <div className="flex justify-between items-center p-4">
-                <h2 className="text-white pl-4 text-xl">CSEC</h2>
+                <h2 className="text-white text-xl font-bold pl-4">CSEC</h2>
                 <button
-                    className="text-white text-3xl"
+                    className="text-white text-2xl"
                     onClick={() => setState(false)}
                 >
                     &times; {/* Close icon */}
@@ -61,6 +60,16 @@ export default function Navbar() {
                     </li>
                 ))}
             </ul>
+
+            {/* Social Media Icons */}
+            <div className="flex pl-8 space-x-6 mt-auto mb-4">
+                <Link href="https://www.instagram.com" target="_blank">
+                    <img  src="instagram.svg" alt="Instagram" className="w-6 h-6" />
+                </Link>
+                <Link href="https://discord.com" target="_blank">
+                    <img src="discord.svg" alt="Discord" className="w-6 h-6" />
+                </Link>
+            </div>
         </div>
         
         {/* Desktop menu */}
