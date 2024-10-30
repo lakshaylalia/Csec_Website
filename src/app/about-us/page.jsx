@@ -17,7 +17,7 @@ const About = () => {
   return (
     <div className="flex lg:flex-row flex-col ">
       <div className="flex-1 px-6 pt-10 justify-center items-center">
-        <img src="/about_us.jpg" className="rounded-2xl" />
+        <img src="/about_us.jpg" className="rounded-2xl md:w-full" />
       </div>
       <div className="flex-1 flex-col">
         <h1 className={"text-3xl lg:text-6xl pt-10 pl-8 font-bold text-gray-400 " + (inria.className)}>

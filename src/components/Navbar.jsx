@@ -46,7 +46,7 @@ export default function Navbar() {
             <div className="flex justify-between items-center p-4">
                 <h2 className="text-white text-xl font-bold pl-4">CSEC</h2>
                 <button
-                    className="text-white text-2xl"
+                    className="text-white text-3xl pr-8"
                     onClick={() => setState(false)}
                 >
                     &times; {/* Close icon */}
@@ -62,9 +62,9 @@ export default function Navbar() {
             </ul>
 
             {/* Social Media Icons */}
-            <div className="flex pl-8 space-x-6 mt-auto mb-4">
+            <div className="absolute bottom-0 pb-6 pl-8 flex space-x-6">
                 <Link href="https://www.instagram.com" target="_blank">
-                    <img  src="instagram.svg" alt="Instagram" className="w-6 h-6" />
+                    <img src="instagram.svg" alt="Instagram" className="w-6 h-6" />
                 </Link>
                 <Link href="https://discord.com" target="_blank">
                     <img src="discord.svg" alt="Discord" className="w-6 h-6" />
@@ -84,6 +84,8 @@ export default function Navbar() {
         </div>
     </div>
 </nav>
+
+
 
     
     )
