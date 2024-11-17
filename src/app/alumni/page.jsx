@@ -3,8 +3,8 @@
 
 import React, { useState } from "react";
 import alumniData from "../../../alumni.json";
-import Modal from "../../components/ui/modal";
-import SearchBar from "../../components/ui/searchbar";
+import Modal from "../../components/ui/Modal";
+import SearchBar from "../../components/ui/SearchBar";
 import { Inria_Serif } from "next/font/google";
 
 const inria = Inria_Serif({
