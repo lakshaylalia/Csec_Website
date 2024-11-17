@@ -1,7 +1,7 @@
 "use client"
 import { useParams } from 'next/navigation'
 import React from 'react'
-import { Inria_Serif } from "next/font/google";
+import { Inria_Sans, Inria_Serif } from "next/font/google";
 import events from '../../../utils/past_events.json'
 import { Button } from '../../../components/ui/button'
 import faqs from "../../../utils/faq.json"
@@ -19,24 +19,29 @@ const inria = Inria_Serif({
     subsets: ['latin'],
     weight: ["300", "400", "700"]
 })
+const inria2= Inria_Sans({
+    display: 'swap',
+    subsets: ['latin'],
+    weight: ["300", "400", "700"]
+})
 const Event = () => {
     const params = useParams()
     const { eventId: eventName } = params
     const event = events.find(event => event.event === eventName)
     return (
         <>
-            <div className='flex mx-auto max-h-[500px] px-10 mt-8 mb-4'>
+            <div className='flex mx-auto justify-center max-h-[500px] px-10 mt-8 mb-4'>
                 <img className='h-300 object-cover mx-100 rounded-xl border border-b-4 shadow-md opacity-50' src={`${event.image}`} />
             </div>
             <div className='flex flex-col items-center gap-4'>
                 <div className='flex gap-2 justify-center items-center'>
-                    <p className={'md:text-4xl text-center text-xl font-bold mr-1 '+(inria.className)}>
+                    <p className={'md:text-4xl text-center text-xl font-bold mr-1 '+(inria2.className)}>
                         {event.event_type}
                     </p>
                     <div className="bg-gradient-to-br from-gray-300 to-slate-700 w-2 h-6">
                         </div>
 
-                    <p className={'md:text-4xl text-center text-xl font-bold '+(inria.className)}>
+                    <p className={'md:text-4xl text-center text-xl font-bold '+(inria2.className)}>
                         {event.long_date}
                     </p>
                 </div>

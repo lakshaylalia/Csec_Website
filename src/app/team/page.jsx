@@ -1,13 +1,5 @@
 
-<<<<<<< HEAD
-"use client"
-import React, { useState } from 'react';
-import alumniData from '../../../alumni.json'; 
-import Modal from '../../components/ui/Modal' 
-import SearchBar from '../../components/ui/SearchBar';
-=======
 "use client"; 
->>>>>>> 1c7f7c266f946af3ffff1c457d59f42327fb2b50
 
 import React, { useState } from "react";
 import alumniData from "../../../alumni.json";
@@ -38,10 +30,10 @@ const AlumniPage = () => {
 
   const filterOptions = [
     { value: "", title: "Select Batch" },
-    { value: "2024", title: "Batch 2024" },
-    { value: "2023", title: "Batch 2023" },
-    { value: "2022", title: "Batch 2022" },
     { value: "2021", title: "Batch 2021" },
+    { value: "2022", title: "Batch 2022" },
+    { value: "2023", title: "Batch 2023" },
+    { value: "2024", title: "Batch 2024" },
   ];
 
   const filteredCards = cardData.filter((card) => {
@@ -79,7 +71,7 @@ const AlumniPage = () => {
       <div className="flex flex-col md:flex-row justify-between w-4/5 my-4">
         <button
           onClick={openModal}
-          className={`py-2 px-4 bg-[#333] text-white rounded mb-4 md:mb-0 font-bold transition-transform transform hover:scale-110 ${inria.className}`}
+          className={`py-0 px-4 bg-[#333] text-white rounded mb-4 md:mb-0 font-bold transition-transform transform hover:scale-110 ${inria.className}`}
            
         >
           Open Filter Options
@@ -111,7 +103,7 @@ const AlumniPage = () => {
       <div className="flex flex-col items-center w-full ">
         
         {Object.keys(groupedCards)
-          .sort((a, b) => b - a) 
+          
           .map((batch) => (
             <div key={batch} className="w-full my-8 ">
               <h2 className="text-white text-3xl mb-4 text-center">{batch}</h2>

@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import events from "../utils/current_events.json"
 import { Card, CardHeader } from "./ui/card";
-import { Carousel, CarouselContent, CarouselItem,CarouselNext,CarouselPrevious, } from './ui/carousel';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, } from './ui/carousel';
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { Star } from 'lucide-react';
 import { Inria_Sans, Inria_Serif } from 'next/font/google';
@@ -55,8 +55,8 @@ const Carousel_Custom = () => {
                 </h1>
             </div>
             <main className=' flex h-full  justify-center px-4 py-3'>
-                <div className=" mr-10 w-full h-screen my-4 ml-4 hidden lg:block">
-                    <h1 className={'text-2xl mb-10 font-bold ' + (inria.className)}>Recent Contest Ranking</h1>
+                <div className=" mr-10 flex-1 h-screen my-4 ml-4 hidden lg:block">
+                    <h1 className={'text-3xl mb-10 font-bold ' + (inria.className)}>Recent Contest Ranking</h1>
                     <div className='flex flex-col justify-center items-center gap-1'>
 
                         <div className='relative'>
@@ -107,7 +107,7 @@ const Carousel_Custom = () => {
 
                             user.map((contestant, index) => (
                                 index < 3 ? null :
-                                    (<div key={index} className={'border-b-2 rounded-full p-4 border-gray-500 flex w-full justify-between '+(inria2.className)}>
+                                    (<div key={index} className={'border-b-2 rounded-full p-4 border-gray-500 flex w-full justify-between ' + (inria2.className)}>
                                         <h1 >
                                             {contestant.Rank}
                                         </h1>
@@ -122,94 +122,21 @@ const Carousel_Custom = () => {
                         }
                     </div>
                 </div>
-                <Carousel className="w-full justify-center items-center max-w-full">
-                    <CarouselContent>
-                        {
-                            events.map((event, i) => (
-                                <CarouselItem key={i}>
-                                    <div className="">
-                                        <Card className=" my-4 items-center text-center flex flex-col justify-start">
-                                            <CardHeader>
-                                                <img className="w-full h-full rounded-lg" src={event.image} alt="Event_image" />
-                                            </CardHeader>
-                                        </Card>
+                <div className='flex flex-1 flex-col mr-10 h-screen my-[1.05rem] ml-4'>
+                    <h1 className={'text-3xl font-bold ' + (inria.className)}>What is Poppin</h1>
+                    {events.map((event, index) => (
+                        <div key={index} className={'mt-6 bg-slate-900 p-5 rounded-lg '}>
+                            <div className='flex justify-between'>
+                            <h1 className={'lg:text-2xl md:text-xl text-lg font-bold pb-4 '+(inria.className)}>{event.event}</h1>
+                            <h1 className={'lg:text-2xl md:text-xl text-lg font-bold pb-4 '+(inria.className)}>{event.date}</h1>
 
-                                    </div>
-                                </CarouselItem>
-                            ))
-                        }
-                    </CarouselContent>
-                    <CarouselPrevious />
-                    <CarouselNext  />
-                </Carousel>
-
-                <div className=" ml-10 my-4 mr-4 hidden lg:block w-full h-screen">
-                    <h1 className={'text-2xl mb-10 font-bold ' + (inria.className)}>Overall Contest Ranking</h1>
-                    <div className='flex flex-col justify-center items-center gap-1'>
-
-                        <div className='relative'>
-                            <div className=" w-30 h-30 flex absolute rounded-full inset-0 bg-yellow-500 bg-opacity-50 filter blur-lg z-0" />
-                            <Avatar className="w-24 h-24">
-                                <AvatarImage className="z-10 absolute inset-0" src="https://github.com/shadcn.png" />
-                                <AvatarFallback>CN</AvatarFallback>
-                            </Avatar>
-                            <h1 className={"text-lg text-center font-bold " + (inria.className)}>{user[0].Name}</h1>
-                            <div className='flex gap-1 justify-center items-center z-10'>
-                                <Star className='w-5 h-5 text-yellow-400' />
-                                <h1 className={"font-semibold " + (inria2.className)}>{user[0].Score}</h1>
                             </div>
+                            <h1 className={'lg:text-xl md:text-lg text-md '+(inria2.className)}>{event.desc}</h1>
                         </div>
-
-
-                        <div className='flex justify-around gap-40'>
-                            <div className='relative'>
-                                <div className=" w-30 h-30 absolute rounded-full inset-0 bg-gray-400 bg-opacity-50 filter blur-lg z-0" />
-                                <Avatar className="w-24 h-24">
-                                    <AvatarImage className="z-10 absolute inset-0" src="https://github.com/shadcn.png" />
-                                    <AvatarFallback>CN</AvatarFallback>
-                                </Avatar>
-                                <h1 className={"text-lg font-bold text-center " + (inria.className)}>{user[1].Name}</h1>
-                                <div className='flex gap-1 justify-center items-center'>
-                                    <Star className='w-5 h-5 text-gray-500' />
-                                    <h1 className={"font-semibold " + (inria2.className)}>{user[1].Score}</h1>
-                                </div>
-                            </div>
-
-                            <div className='relative'>
-                                <div className=" w-30 h-30 absolute rounded-full inset-0 bg-orange-400 bg-opacity-50 filter blur-lg z-0" />
-                                <Avatar className="w-24 h-24">
-                                    <AvatarImage className="z-10 absolute inset-0" src="https://github.com/shadcn.png" />
-                                    <AvatarFallback>CN</AvatarFallback>
-                                </Avatar>
-                                <h1 className={"text-lg font-bold text-center " + (inria.className)}>{user[2].Name}</h1>
-                                <div className='flex gap-1 justify-center items-center'>
-                                    <Star className='w-5 h-5 text-orange-400' />
-                                    <h1 className={"font-semibold " + (inria2.className)}>{user[2].Score}</h1>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className='flex flex-col mt-10 w-full'>
-                        {
-
-                            user.map((contestant, index) => (
-                                index < 3 ? null :
-                                    (<div key={index} className={'border-b-2 rounded-full p-4 border-gray-500 flex w-full justify-between '+(inria2.className)}>
-                                        <h1>
-                                            {contestant.Rank}
-                                        </h1>
-                                        <h1 className={inria.className}>
-                                            {contestant.Name}
-                                        </h1>
-                                        <h1>
-                                            {contestant.Score}
-                                        </h1>
-                                    </div>)
-                            ))
-                        }
-                    </div>
+                    ))}
                 </div>
+
+
             </main>
         </div>
     )

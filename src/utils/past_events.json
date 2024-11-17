@@ -1,7 +1,7 @@
 [
     {
         "event":"Hackathon",
-        "image":"https://images.unsplash.com/photo-1720125480125-d206de86a20f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image":"https://img.freepik.com/free-vector/hackathon-doodle-hand-drawing-team-programmers-web-developers-managers-graphic-designers-deve_88138-1348.jpg?t=st=1731836995~exp=1731840595~hmac=513d506717b8c422d1de8f4c732e30c7d6a42cbf8301f92d1969108ba4222246&w=1060",
         "date":"2024-08-22",
         "desc":"Meet new people and build projects",
         "long_desc":"A hackathon is an event, typically lasting between a day and a week, in which individuals or teams collaborate intensively on software projects. Hackathons are often organized around a specific theme or goal, such as developing solutions for a particular industry, creating innovative applications, or addressing societal challenges. Participants, who can range from developers and designers to entrepreneurs and students, work together to brainstorm, prototype, and present their projects within the given time frame.",
@@ -10,7 +10,7 @@
     },
     {
         "event":"Workshop",
-        "image":"https://images.unsplash.com/photo-1610307390744-b55e7ca781d1?q=80&w=1873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image":"https://img.freepik.com/free-vector/coding-workshop-concept-illustration_114360-8112.jpg?t=st=1731837274~exp=1731840874~hmac=2c8cfa19c5ab10fb20005f09b94f2e40e3ce01d169eb2b5b414663815ec91fe8&w=1060",
         "date":"2024-10-15",
         "desc":"Join to explore new technology",
         "long_desc":"A workshop is an educational session where participants engage in interactive learning through discussions, activities, and hands-on practice. Workshops are typically designed to teach specific skills, concepts, or techniques and are led by experts or facilitators in the relevant field. They are suitable for various settings, including professional development, academic environments, community education, and creative endeavors.",
@@ -19,7 +19,7 @@
     },
     {
         "event":"Coding",
-        "image":"https://images.unsplash.com/photo-1720887236665-43caad593cdf?q=80&w=1836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image":"https://img.freepik.com/free-vector/pair-programming-concept-illustration_114360-1652.jpg?t=st=1731837315~exp=1731840915~hmac=c8b62be8c5c649adcdcf41c0b84a3e28870b0e8f35c1d95bd2ccef45836663bf&w=1060",
         "date":"2024-12-15",
         "desc":"Show off your coding skills to the world",
         "long_desc":"A coding contest is a competitive event where individuals or teams solve programming challenges within a specified time frame. These contests test participants' problem-solving abilities, algorithmic skills, and coding proficiency. Coding contests are popular among students, professionals, and coding enthusiasts and can be conducted online or in person.",
