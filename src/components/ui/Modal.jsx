@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Modal = ({ showModal, handleClose, handleBatchChange, selectedBatch, filterOptions }) => {
