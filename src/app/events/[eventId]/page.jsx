@@ -157,10 +157,11 @@ const Event = () => {
                     {
                         contact.map((contact, index) => (
                             <div key={index} className='flex gap-2 items-center'>
-                                <PhoneCallIcon className='w-5 h-5' />
-                                <p className='md:text-lg text-md'>{contact.Phone}</p>
-                                <p className='md:text-lg text-md'>{contact.name}</p>
-
+                            <img src='https://www.svgrepo.com/show/353655/discord-icon.svg' alt="Discord" className="w-6 h-6" />
+                            <p className='md:text-lg text-md'>{contact.discord}</p>
+                            <div className="bg-gradient-to-br from-gray-300 to-slate-700 w-1 h-6">
+                        </div>
+                            <p className='md:text-lg text-md'>{contact.name}</p>
                             </div>
                         ))
                     }

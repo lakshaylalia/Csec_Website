@@ -83,12 +83,12 @@ export default function Navbar() {
                     </ul>
 
                     {/* Social Media Icons */}
-                    <div className="absolute bottom-0 pb-6 pl-8 flex space-x-6">
-                        <Link href="https://www.instagram.com" target="_blank">
-                            <img src="instagram.svg" alt="Instagram" className="w-6 h-6" />
+                    <div className="absolute bottom-0 pb-6 pl-8 flex space-x-10">
+                        <Link href="https://www.instagram.com/csec_nith/" target="_blank">
+                            <img src="https://www.svgrepo.com/show/452229/instagram-1.svg" alt="Instagram" className="w-8 h-8" />
                         </Link>
-                        <Link href="https://discord.com" target="_blank">
-                            <img src="discord.svg" alt="Discord" className="w-6 h-6" />
+                        <Link href="https://discord.com/invite/xP3na4jr" target="_blank">
+                            <img src="https://www.svgrepo.com/show/353655/discord-icon.svg" alt="Discord" className="w-8 h-8" />
                         </Link>
                     </div>
                 </div>
