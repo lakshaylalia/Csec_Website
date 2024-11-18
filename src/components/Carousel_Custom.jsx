@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react'
 import events from "../utils/current_events.json"
 import { Card, CardHeader } from "./ui/card";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, } from './ui/carousel';
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { Star } from 'lucide-react';
 import { Inria_Sans, Inria_Serif } from 'next/font/google';
@@ -47,13 +46,6 @@ const Carousel_Custom = () => {
 
     return (
         <div className='flex flex-col justify-center'>
-            <div className=' flex gap-2 items-center mx-8 mt-12 mb-4 md:mb-6'>
-                <div className="bg-gradient-to-br from-gray-300 to-slate-700 w-2 h-7">
-                </div>
-                <h1 className={'text-3xl md:text-4xl font-bold '}>
-                    EVENTS
-                </h1>
-            </div>
             <main className=' flex h-full  justify-center px-4 py-3'>
                 <div className=" mr-10 flex-1 h-screen my-4 ml-4 hidden lg:block">
                     <h1 className={'text-3xl mb-10 font-bold ' + (inria.className)}>Recent Contest Ranking</h1>
@@ -122,16 +114,17 @@ const Carousel_Custom = () => {
                         }
                     </div>
                 </div>
-                <div className='flex flex-1 flex-col mr-10 h-screen my-[1.05rem] ml-4'>
-                    <h1 className={'text-3xl font-bold ' + (inria.className)}>What is Poppin</h1>
+                <div className='flex flex-1 flex-col mr-8 my-[1.05rem] ml-4'>
+                    <h1 className={'text-3xl ml-5 font-bold text-gray-400 ' + (inria.className)}>What is Poppin ?</h1>
                     {events.map((event, index) => (
-                        <div key={index} className={'mt-6 bg-slate-900 p-5 rounded-lg '}>
-                            <div className='flex justify-between'>
-                            <h1 className={'lg:text-2xl md:text-xl text-lg font-bold pb-4 '+(inria.className)}>{event.event}</h1>
-                            <h1 className={'lg:text-2xl md:text-xl text-lg font-bold pb-4 '+(inria.className)}>{event.date}</h1>
-
+                        <div key={index} className={'mt-6 bg-slate-900 p-5 md:w-full ml-5 w-[350px] rounded-lg '}>
+                            <div className='flex flex-col'>
+                                <div className='flex items-center justify-between'>
+                                <h1 className={'lg:text-2xl md:text-2xl text-xl font-bold pb-4 '+(inria.className)}>{event.event}</h1>
+                                <h1 className={'lg:text-xl md:text-lg text-md  pb-4 '+(inria2.className)}>{event.date}</h1>
+                                </div>
+                                <h1 className={'lg:text-xl md:text-lg text-md '+(inria2.className)}>{event.desc}</h1>
                             </div>
-                            <h1 className={'lg:text-xl md:text-lg text-md '+(inria2.className)}>{event.desc}</h1>
                         </div>
                     ))}
                 </div>

@@ -24,17 +24,17 @@ const Events = () => {
     const router = useRouter()
     return (
         <div className='flex justify-center flex-col items-center'>
-            <div className=' flex gap-2 items-center mx-8 mt-32 mb-4 md:mb-6'>
+            <div className=' flex gap-2 items-center mx-8 mt-5 mb-4 md:mb-6'>
                 <div className="bg-gradient-to-br from-gray-300 to-slate-700 w-2 h-7">
                 </div>
                 <h1 className={'text-3xl md:text-4xl font-bold '}>
-                    CURRENT EVENTS
+                    EVENTS
                 </h1>
             </div>
-            <div className="grid xl:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-6 mx-8">
+            <div className="grid xl:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 xs:w-full gap-6 mx-0">
                 {
                     events.map((event) => (
-                        <Card key={event.event} className="md:w-[350px] w-[250px]">
+                        <Card key={event.event} className="md:w-[350px] w-[350px]">
                             <CardHeader className="flex justify-center items-center">
                                 <CardTitle>{event.event}</CardTitle>
                                 <CardDescription className={inria.className}>{event.desc}.</CardDescription>

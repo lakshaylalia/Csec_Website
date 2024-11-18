@@ -45,15 +45,15 @@ const Event = () => {
                         {event.long_date}
                     </p>
                 </div>
-                <Button className="md:w-60 w-40 rounded-full mb-2 text-md md:text-lg font-semibold" variant={"outline"}>
+                <Button className="md:w-120 w-80 rounded-full mb-2 text-md md:text-lg font-semibold" variant={"outline"}>
                     Register
                 </Button>
             </div>
-            <div className='mx-10  flex flex-col gap-2'>
-                <h1 className='md:text-4xl text-xl font-semibold'>
+            <div className='mx-10 mt-2 flex flex-col gap-2'>
+                <h1 className='md:text-4xl text-2xl font-semibold'>
                     {event.event}
                 </h1>
-                <p className={'md:text-lg text-md' + (inria.className)}>
+                <p className={'xl:text-lg xs:text-2xl' + (inria.className)}>
                     {event.long_desc}
                 </p>
             </div>

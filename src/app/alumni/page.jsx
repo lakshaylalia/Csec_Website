@@ -2,9 +2,10 @@
 
 import React, { useState } from "react";
 import alumniData from "../../../alumni.json";
-import Modal from "../../components/ui/Modal";
+
 import SearchBar from "../../components/ui/SearchBar";
 import { Inria_Serif } from "next/font/google";
+import Modal from "../../components/ui/modal";
 
 const inria = Inria_Serif({
   display: "swap",
@@ -67,11 +68,10 @@ const AlumniPage = () => {
       <h1 className={`my-8 text-white text-5xl font-bold ${inria.className}`}>
         Meet Our Team
       </h1>
-      <div className="flex flex-col md:flex-row justify-between w-4/5 my-4">
+      <div className="flex flex-col md:flex-row justify-between w-4/5 my-2">
         <button
           onClick={openModal}
-          className={`py-0 px-4 bg-[#333] text-white rounded mb-4 md:mb-0 font-bold transition-transform transform hover:scale-110 ${inria.className}`}
-           
+          className={`py-2 px-4 bg-[#333] text-white rounded mb-2 md:mb-0 font-bold transition-transform transform hover:scale-110 ${inria.className}`}
         >
           Open Filter Options
         </button>
@@ -100,7 +100,6 @@ const AlumniPage = () => {
       )}
 
       <div className="flex flex-col items-center w-full ">
-        
         {Object.keys(groupedCards)
           
           .map((batch) => (
@@ -110,7 +109,7 @@ const AlumniPage = () => {
                 {groupedCards[batch].map((card, index) => (
                   <div
                     key={index}
-                    className="relative w-60 h-85 rounded-lg flex flex-col items-center mx-5 mb-8 bg-white bg-opacity-10 backdrop-blur-md shadow-lg overflow-hidden"
+                    className="relative w-80 h-[20rem] rounded-lg flex flex-col items-center mx-5 mb-8 bg-white bg-opacity-10 backdrop-blur-md shadow-lg overflow-hidden"
                     onMouseEnter={() => setHoveredCard(index)} 
                     onMouseLeave={() => setHoveredCard(null)} 
                   >
