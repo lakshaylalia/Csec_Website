@@ -51,7 +51,7 @@ const Events = () => {
 
                                 <Button onClick={() => {
                                     router.push(`/events/${event.event}`)
-                                }} className="w-full font-semibold md:text-lg text-md" variant="outline">Explore</Button>
+                                }} className="w-full font-semibold md:text-lg text-md " variant="outline">Explore</Button>
                             </CardFooter>
                         </Card>
                     ))

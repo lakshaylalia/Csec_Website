@@ -28,7 +28,7 @@ const MasonaryGrid = () => {
                         image_loc.map((e, index) => (
                             <div className='relative overflow-hidden rounded-md' key={index}
                                 onMouseEnter={() => setHoverIndex(index)} onMouseLeave={() => setHoverIndex(null)} onMouseMove={(e) => handleMouseMove(e, index)}>
-                                <Image className="cursor-pointer hover:scale-150 translate-transform duration-500 ease-in-out" style={{ transformOrigin: `${mousePointer.x}% ${mousePointer.y}%` }} src={e.link} alt='anime' width={500} height={600} />
+                                <Image className="cursor-pointer hover:scale-150 translate-transform duration-500 ease-in-out" style={{ transformOrigin: `${mousePointer.x}% ${mousePointer.y}%` }} src={e.link} alt='Photo' width={500} height={600} />
                             </div>
                         ))
                     }

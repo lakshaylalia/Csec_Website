@@ -30,7 +30,7 @@
             "faq_ans":"The rules for the hackathon will be provided at the beginning of the event. All participants must follow the rules to ensure a fair and enjoyable experience."
         }
     ],
-    "workshop":[
+    "Linux":[
         {
             "id":1,
             "faq_ques":"What are the topics for the workshops?",
@@ -61,7 +61,7 @@
             "faq_ans":"You can contact the organizers by emailing them at  info@technologicalinstituteofhamirpur.com or by filling out a contact form at the website."
         }
     ],
-    "coding_contest":[
+    "Heuristics":[
         {
             "id":1,
             "faq_ques":"What are the rules for the coding contest?",
@@ -91,6 +91,198 @@
             "id":6,
             "faq_ques":"What are some common coding problems to solve?",
             "faq_ans":"Some common coding problems to solve include sorting arrays, finding the maximum value, and implementing a binary search algorithm."
+        }
+    ],
+    "GitWorkshop":[
+        {
+            "id":1,
+            "faq_ques":"What are the topics for the Git and Github workshop?",
+            "faq_ans":"The workshop will cover Git and Github basics, creating repositories, collaborating with others, and using Git for version control."
+        },
+        {
+            "id":2,
+            "faq_ques":"How much does the workshop registration fee include?",
+            "faq_ans":"The workshop registration is completely free."
+        },
+        {
+            "id":3,
+            "faq_ques":"When and where is the workshop taking place?",
+            "faq_ans":"The workshop will be taking place on October 15th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+        },
+        {
+            "id":4,
+            "faq_ques":"What are the prerequisites for attending the workshop?",
+            "faq_ans":"To attend the workshop, you must have a computer, internet connection, and a good sense of humor."
+        },
+        {
+            "id":5,
+            "faq_ques":"What are the benefits of attending the workshop?",
+            "faq_ans":"Attending the workshop will help you learn new skills, expand your knowledge, and have a fun and engaging experience."
+        },
+        {
+            "id":6,
+            "faq_ques":"How can I get in touch with the organizers?",
+            "faq_ans":"You can contact the organizers by emailing them at"
+        }
+    ],
+    "ProgrammingMeet":[
+        {
+            "id":1,
+            "faq_ques":"What are the topics for the programming meet?",
+            "faq_ans":"The programming meet will cover various programming languages, such as Python, Java, and C++, as well as algorithms and data structures."
+        },
+        {
+            "id":2,
+            "faq_ques":"How much does the programming meet registration fee include?",
+            "faq_ans":"The programming meet registration is completely free."
+        },
+        {
+            "id":3,
+            "faq_ques":"When and where is the programming meet taking place?",
+            "faq_ans":"The programming meet will be taking place on October 16th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+        },
+        {
+            "id":4,
+            "faq_ques":"What are the benefits of attending the programming meet?",
+            "faq_ans":"Attending the programming meet will help you learn new skills, expand your knowledge, and have a fun and engaging experience."
+        },
+        {
+            "id":5,
+            "faq_ques":"How can I get in touch with the organizers?",
+            "faq_ans":"You can contact the organizers by emailing them at info@exmaple.com"
+        },
+        {
+            "id":6,
+            "faq_ques":"What are some common programming problems to solve?",
+            "faq_ans":"Some common programming problems to solve include implementing a linked list, finding the shortest path, and sorting an array."
+        }
+    ],
+    "CodeWrap":[
+        {
+            "id":1,
+            "faq_ques":"What are the rules for the coding competition?",
+            "faq_ans":"The rules for the coding competition are as follows: 1. Each participant"
+        },
+        {
+            "id":2,
+            "faq_ques":"How much does the coding competition registration fee include?",
+            "faq_ans":"The coding competition registration is completely free."
+        },
+        {
+            "id":3,
+            "faq_ques":"When and where is the coding competition taking place?",
+            "faq_ans":"The coding competition will be taking place on October 17th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+        },
+        {
+            "id":4,
+            "faq_ques":"What are the prizes for the coding competition?",
+            "faq_ans":"The prizes for the coding competition will be provided at the end of the event."
+        },
+        {
+            "id":5,
+            "faq_ques":"How can I get in touch with the organizers?",
+            "faq_ans":"You can contact the organizers by emailing them at info@exmaple.com"
+        },
+        {
+            "id":6,
+            "faq_ques":"What are some common coding problems to solve?",
+            "faq_ans":"Some common coding problems to solve include implementing a linked list, finding the shortest path, and sorting an array."
+        }
+    ],
+    "Bootcamp":[
+        {
+            "id":1,
+            "faq_ques":"What are the topics for the programming bootcamp?",
+            "faq_ans":"The programming bootcamp will cover various programming languages, such as Python, Java, and C++, as well as algorithms and data structures."
+        },
+        {
+            "id":2,
+            "faq_ques":"How much does the programming bootcamp registration fee include?",
+            "faq_ans":"The programming bootcamp registration is completely free."
+        },
+        {
+            "id":3,
+            "faq_ques":"When and where is the programming bootcamp taking place?",
+            "faq_ans":"The programming bootcamp will be taking place on October 18th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+        },
+        {
+            "id":4,
+            "faq_ques":"What are the benefits of attending the programming bootcamp?",
+            "faq_ans":"Attending the programming bootcamp will help you learn new skills, expand your knowledge, and have a fun and engaging experience."
+        },
+        {
+            "id":5,
+            "faq_ques":"How can I get in touch with the organizers?",
+            "faq_ans":"You can contact the organizers by emailing them at info@exmaple.com"
+        },
+        {
+            "id":6,
+            "faq_ques":"What are some common programming problems to solve?",
+            "faq_ans":"Some common programming problems to solve include implementing a linked list, finding the shortest path, and sorting an array."
+        }
+    ],
+    "FreedomDay":[
+        {
+            "id":1,
+            "faq_ques":"What are the topics for the Software Freedom Day?",
+            "faq_ans":"The Software Freedom Day will cover various topics such as open-source software, free software, and the importance of software freedom."
+        },
+        {
+            "id":2,
+            "faq_ques":"How much does the Software Freedom Day registration fee include?",
+            "faq_ans":"The Software Freedom Day registration is completely free."
+        },
+        {
+            "id":3,
+            "faq_ques":"When and where is the Software Freedom Day taking place?",
+            "faq_ans":"The Software Freedom Day will be taking place on October 19th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+        },
+        {
+            "id":4,
+            "faq_ques":"What are the benefits of attending the Software Freedom Day?",
+            "faq_ans":"Attending the Software Freedom Day will help you learn about the importance of software freedom, open-source software, and free software."
+        },
+        {
+            "id":5,
+            "faq_ques":"How can I get in touch with the organizers?",
+            "faq_ans":"You can contact the organizers by emailing them at info@exmaple.com"
+        },
+        {
+            "id":6,
+            "faq_ques":"What are some common software freedom topics to discuss?",
+            "faq_ans":"Some common software freedom topics to discuss include the importance of software freedom, the benefits of open-source software, and the challenges faced by proprietary software."
+        }
+    ],
+    "InternTalk":[
+        {
+            "id":1,
+            "faq_ques":"What are the topics for the intern talks?",
+            "faq_ans":"The intern talks will cover various topics such as software development, data analysis, and machine learning."
+        },
+        {
+            "id":2,
+            "faq_ques":"How much does the intern talk registration fee include?",
+            "faq_ans":"The intern talk registration is completely free."
+        },
+        {
+            "id":3,
+            "faq_ques":"When and where is the intern talks taking place?",
+            "faq_ans":"The intern talks will be taking place on October 20th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+        },
+        {
+            "id":4,
+            "faq_ques":"What are the benefits of attending the intern talks?",
+            "faq_ans":"Attending the intern talks will help you learn about the importance of software development, data analysis, and machine learning, and gain valuable experience and knowledge."
+        },
+        {
+            "id":5,
+            "faq_ques":"How can I get in touch with the organizers?",
+            "faq_ans":"You can contact the organizers by emailing them at info@exmaple.com"
+        },
+        {
+            "id":6,
+            "faq_ques":"What are some common intern talk topics to discuss?",
+            "faq_ans":"Some common intern talk topics to discuss include the importance of software development, the benefits of data analysis, and the challenges faced by machine learning."
         }
     ]
 }

@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import events from "../utils/current_events.json"
-import { Card, CardHeader } from "./ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { Star } from 'lucide-react';
 import { Inria_Sans, Inria_Serif } from 'next/font/google';
@@ -114,8 +113,8 @@ const Carousel_Custom = () => {
                         }
                     </div>
                 </div>
-                <div className='flex flex-1 flex-col mr-8 my-[1.05rem] ml-4'>
-                    <h1 className={'text-3xl ml-5 font-bold text-gray-400 ' + (inria.className)}>What is Poppin ?</h1>
+                <div className='flex flex-1 flex-col mr-8 my-[1.05rem] ml-4 mt-5'>
+                    <h1 className={'text-3xl ml-6 font-bold text-gray-400 ' + (inria.className)}>What is Poppin ?</h1>
                     {events.map((event, index) => (
                         <div key={index} className={'mt-6 bg-slate-900 p-5 md:w-full ml-5 w-[350px] rounded-lg '}>
                             <div className='flex flex-col'>

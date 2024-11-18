@@ -28,33 +28,34 @@ const Event = () => {
     const params = useParams()
     const { eventId: eventName } = params
     const event = events.find(event => event.event === eventName)
+    console.log(event)
     return (
         <>
             <div className='flex mx-auto justify-center max-h-[500px] px-10 mt-8 mb-4'>
-                <img className='h-300 object-cover mx-100 rounded-xl border border-b-4 shadow-md opacity-50' src={`${event.image}`} />
+                <img className='h-300 object-cover mx-100 rounded-xl border border-b-4 shadow-md opacity-50' src={`${event?.image}`} />
             </div>
             <div className='flex flex-col items-center gap-4'>
                 <div className='flex gap-2 justify-center items-center'>
                     <p className={'md:text-4xl text-center text-xl font-bold mr-1 '+(inria2.className)}>
-                        {event.event_type}
+                        {event?.event_type}
                     </p>
                     <div className="bg-gradient-to-br from-gray-300 to-slate-700 w-2 h-6">
                         </div>
 
                     <p className={'md:text-4xl text-center text-xl font-bold '+(inria2.className)}>
-                        {event.long_date}
+                        {event?.long_date}
                     </p>
                 </div>
-                <Button className="md:w-120 w-80 rounded-full mb-2 text-md md:text-lg font-semibold" variant={"outline"}>
+                {/* <Button className="md:w-120 w-80 rounded-full mb-2 text-md md:text-lg font-semibold" variant={"outline"}>
                     Register
-                </Button>
+                </Button> */}
             </div>
             <div className='mx-10 mt-2 flex flex-col gap-2'>
                 <h1 className='md:text-4xl text-2xl font-semibold'>
-                    {event.event}
+                    {event?.event}
                 </h1>
                 <p className={'xl:text-lg xs:text-2xl' + (inria.className)}>
-                    {event.long_desc}
+                    {event?.long_desc}
                 </p>
             </div>
             <div className='flex flex-col justify-center items-center mx-10 mt-8'>
@@ -62,7 +63,7 @@ const Event = () => {
                     FAQs
                 </h1>
                 {
-                    event.event === "Hackathon" ? faqs.hackathon.map((faq, index) => (
+                    event?.event === "Hackathon" ? faqs.hackathon.map((faq, index) => (
                         <Accordion key={faq.id} type="single" collapsible className="w-full">
                             <AccordionItem value={faq.id}>
                                 <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
@@ -71,7 +72,7 @@ const Event = () => {
                                 </AccordionContent>
                             </AccordionItem>
                         </Accordion>
-                    )) : event.event === "Workshop" ? faqs.workshop.map((faq, index) => (
+                    )) : event?.event === "Linux" ? faqs["Linux"]?.map((faq, index) => (
                         <Accordion key={faq.id} type="single" collapsible className="w-full">
                             <AccordionItem value={faq.id}>
                                 <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
@@ -80,7 +81,7 @@ const Event = () => {
                                 </AccordionContent>
                             </AccordionItem>
                         </Accordion>
-                    )) : event.event === "Coding" ? faqs.coding_contest.map((faq, index) => (
+                    )) : event?.event === "Heuristics" ? faqs["Heuristics"].map((faq, index) => (
                         <Accordion key={faq.id} type="single" collapsible className="w-full">
                             <AccordionItem value={faq.id}>
                                 <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
@@ -89,7 +90,62 @@ const Event = () => {
                                 </AccordionContent>
                             </AccordionItem>
                         </Accordion>
-                    )) : ""
+                    )) : event?.event === "Git-Workshop" ? faqs['GitWorkshop']?.map((faq, index) => (
+                        <Accordion key={faq.id} type="single" collapsible className="w-full">
+                            <AccordionItem value={faq.id}>
+                                <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
+                                <AccordionContent className="md:text-lg text-md">
+                                    {faq.faq_ans}
+                                </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    )):event?.event === "Programming-Meet" ? faqs['ProgrammingMeet'].map((faq, index) => (
+                        <Accordion key={faq.id} type="single" collapsible className="w-full">
+                            <AccordionItem value={faq.id}>
+                                <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
+                                <AccordionContent className="md:text-lg text-md">
+                                    {faq.faq_ans}
+                                </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    )):event?.event === "CodeWrap" ? faqs['CodeWrap']?.map((faq, index) => (
+                        <Accordion key={faq.id} type="single" collapsible className="w-full">
+                            <AccordionItem value={faq.id}>
+                                <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
+                                <AccordionContent className="md:text-lg text-md">
+                                    {faq.faq_ans}
+                                </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    )):event?.event === "Bootcamp" ? faqs["Bootcamp"].map((faq, index) => (
+                        <Accordion key={faq.id} type="single" collapsible className="w-full">
+                            <AccordionItem value={faq.id}>
+                                <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
+                                <AccordionContent className="md:text-lg text-md">
+                                    {faq.faq_ans}
+                                </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    )):event?.event === "Freedom-Day" ? faqs["FreedomDay"].map((faq, index) => (
+                        <Accordion key={faq.id} type="single" collapsible className="w-full">
+                            <AccordionItem value={faq.id}>
+                                <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
+                                <AccordionContent className="md:text-lg text-md">
+                                    {faq.faq_ans}
+                                </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    )):event?.event === "Intern-Talk" ? faqs["InternTalk"].map((faq, index) => (
+                        <Accordion key={faq.id} type="single" collapsible className="w-full">
+                            <AccordionItem value={faq.id}>
+                                <AccordionTrigger className="md:text-lg text-md float-start">{faq.faq_ques}</AccordionTrigger>
+                                <AccordionContent className="md:text-lg text-md">
+                                    {faq.faq_ans}
+                                </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    )):""
+
 
                 }
 
