@@ -28,7 +28,6 @@ const Event = () => {
     const params = useParams()
     const { eventId: eventName } = params
     const event = events.find(event => event.event === eventName)
-    console.log(event)
     return (
         <>
             <div className='flex mx-auto justify-center max-h-[500px] px-10 mt-8 mb-4'>
@@ -50,7 +49,7 @@ const Event = () => {
                     Register
                 </Button> */}
             </div>
-            <div className='mx-10 mt-2 flex flex-col gap-2'>
+            <div className='mx-10 mt-4 flex flex-col gap-2'>
                 <h1 className='md:text-4xl text-2xl font-semibold'>
                     {event?.event}
                 </h1>
