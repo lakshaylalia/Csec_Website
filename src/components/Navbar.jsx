@@ -4,13 +4,18 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { Inria_Sans } from "next/font/google"
+import { Inria_Sans, Poppins } from "next/font/google"
 import csecLogo from "../../public/csec.svg"
 const inria = Inria_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "700"],
   display: "swap",
 })
+
+const poppins = Poppins({
+    subsets: ["latin-ext"],
+    weight: ["100","200","300","400","500","600","700","800","900"],
+  });
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -39,7 +44,13 @@ export default function Navbar() {
             className="text-2xl font-bold tracking-tight hover:text-primary transition-colors flex gap-2 items-center"
           >
             <Image alt="logo" src={csecLogo} width={1000} height={1000} className="w-14 " />
-            {scrolled && <span className={inria.className}>CSEC</span>}
+            {scrolled && <span className={`font-light ${poppins.className}`}    style={{
+              textShadow: `
+                0 0 10px rgba(255,255,255,0.5),
+                0 0 20px rgba(255,255,255,0.3),
+                0 0 30px rgba(255,255,255,0.3)
+              `,
+            }}>CSEC</span>}
           </Link>
 
           <div className="hidden md:flex space-x-8">
@@ -47,7 +58,14 @@ export default function Navbar() {
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
-                className={`text-2xl font-bold hover:text-primary transition-colors mx-2 ${inria.className}`}
+                className={`text-2xl font-extralight hover:text-primary transition-colors mx-2 ${poppins.className}`}
+                style={{
+                    textShadow: `
+                      0 0 10px rgba(255,255,255,0.5),
+                      0 0 20px rgba(255,255,255,0.3),
+                      0 0 30px rgba(255,255,255,0.3)
+                    `,
+                  }}
               >
                 {item}
               </Link>

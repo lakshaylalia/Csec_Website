@@ -22,20 +22,10 @@ export default function RootLayout({ children }) {
     <html lang="en" className="dark">
       <head>
         <head>
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossOrigin="anonymous"
-          />
-          <link rel="icon" href="csec.svg" sizes="any" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-            rel="stylesheet"
-          />
+         
         </head>
       </head>
-      <body className={"dark:bg-slate-950 " + poppins.className}>
+      <body className={" " + poppins.className}>
         <div className="fixed top-0 left-0 w-full h-full z-[-1]">
           {/* <CanvasAnimation /> */}
         </div>
