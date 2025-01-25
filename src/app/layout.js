@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Inria_Sans } from "next/font/google";
+import { Inria_Sans, Poppins } from "next/font/google";
 import Navbar from "../components/Navbar";
 import CanvasAnimation from "../components/CanvasAnimation";
 export const metadata = {
@@ -11,6 +11,12 @@ const inria2 = Inria_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "700"],
 });
+
+const poppins = Poppins({
+  subsets: ["latin-ext"],
+  weight: ["100","200","300","400","500","600","700","800","900"],
+});
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
@@ -29,9 +35,9 @@ export default function RootLayout({ children }) {
           />
         </head>
       </head>
-      <body className={"dark:bg-slate-950 " + inria2.className}>
+      <body className={"dark:bg-slate-950 " + poppins.className}>
         <div className="fixed top-0 left-0 w-full h-full z-[-1]">
-          <CanvasAnimation />
+          {/* <CanvasAnimation /> */}
         </div>
         <Navbar />
         {children}
