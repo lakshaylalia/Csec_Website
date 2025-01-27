@@ -1,11 +1,13 @@
-import React from 'react'
-import MasonaryGrid from '../../components/MasonaryGrid'
-const page = () => {
+import React from "react"
+import Gallery from "../../components/Gallery"
+
+const GalleryPage = () => {
   return (
     <div>
-    <MasonaryGrid/>
+      <Gallery />
     </div>
   )
 }
 
-export default page
+export default GalleryPage
+

@@ -1,44 +1,94 @@
-import { Inria_Sans, Inria_Serif } from 'next/font/google';
-import React from 'react'
+"use client"
 
-const inria = Inria_Serif({
-    display: 'swap',
-    subsets: ['latin'],
-    weight: ["300", "400", "700"]
+import { Inria_Sans, Inria_Serif, Poppins } from "next/font/google"
+import { motion } from "framer-motion"
+import { useState, useEffect } from "react"
+import Typewriter from "typewriter-effect"
+import "../../components/css/landing.css"
+
+const poppins = Poppins({
+  subsets: ["latin-ext"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
 })
-const inria2 = Inria_Sans({
-    display: 'swap',
-    subsets: ['latin'],
-    weight: ["300", "400", "700"]
+
+const inriaSerif = Inria_Serif({
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  display: "swap",
+  variable: "--font-inria-serif",
 })
 
-const Landing = () => {
-    return (
-        <>
-            <div className='flex flex-col justify-center items-center h-screen font-bold'>
-                <h1 className={'md:text-6xl text-5xl ' + (inria2.className)} style={{
-                    textShadow: `
-            0 0 5px rgba(255,255,255,0.3),
-            0 0 10px rgba(255,255,255,0.2),
-            0 0 15px rgba(255,255,255,0.3)
-          `
-                }}>TEAM</h1>
-                <h1 className={'md:text-6xl text-5xl mb-8 ' + (inria2.className)} style={{
-                    textShadow: `
-            0 0 5px rgba(255,255,255,0.3),
-            0 0 10px rgba(255,255,255,0.2),
-            0 0 15px rgba(255,255,255,0.3)
-          `
-                }}>CSEC</h1>   
-                <hr className="border border-r-white w-full max-w-2xl mb-4" style={{ width: '40%' }} />
-                <p className={'md:text-2xl text-lg' + (inria2.className)}>Empowering the Future, One Code at a Time</p>
-                <hr className="border border-r-white w-full max-w-2xl mt-4" style={{ width: '40%' }} />
-            </div>
-        </>
+const backgroundImages = [
+  "https://res.cloudinary.com/dtxjhtjv2/image/upload/v1737840220/csec_q6cmnn.webp",
+  "https://res.cloudinary.com/dtxjhtjv2/image/upload/v1737826104/pic5_yzrf3s.jpg",
+  "https://res.cloudinary.com/dtxjhtjv2/image/upload/v1737846883/pic12_rvqhhq.webp",
+  "https://res.cloudinary.com/dtxjhtjv2/image/upload/v1737846891/pic7_j7dltr.webp",
+  "https://res.cloudinary.com/dtxjhtjv2/image/upload/v1737846888/pic3_d3nckj.webp"
+]
 
-    );
-};
+export default function Landing() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
+  const [nextImageIndex, setNextImageIndex] = useState(1)
 
+  useEffect(() => {
+    const transitionDuration = 2000 // 2 seconds, matching the CSS transition
+    const intervalDuration = 7000 // 7 seconds total (5 seconds display + 2 seconds transition)
 
+    const intervalId = setInterval(() => {
+      setNextImageIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length)
 
-export default Landing
+      setTimeout(() => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length)
+      }, transitionDuration)
+    }, intervalDuration)
+
+    return () => clearInterval(intervalId)
+  }, [])
+
+  return (
+    <div className={`landing-container ${poppins.variable} ${inriaSerif.variable}`}>
+      {backgroundImages.map((image, index) => (
+        <div
+          key={index}
+          className={`background-image ${index === currentImageIndex ? "active" : ""}`}
+          style={{ backgroundImage: `url(${image})` }}
+        />
+      ))}
+      <div className="content-container">
+        <div className="main-content">
+          <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
+            <h1 className={`title ${poppins.variable}`}>CSEC</h1>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          >
+            <h2 className={`subtitle ${poppins.variable}`}>
+              <Typewriter
+                options={{
+                  strings: ["Computer Science Engineers Community"],
+                  autoStart: true,
+                  loop: true,
+                  delay: 50,
+                  deleteSpeed: 25,
+                }}
+              />
+            </h2>
+          </motion.div>   
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+        >
+          <p className="tagline">Empowering the Future, One Code at a Time</p>
+        </motion.div>
+      </div>
+    </div>
+  )
+}
+

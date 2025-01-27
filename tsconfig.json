@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/app/api/fetch_user/route.ts"  ],
+, "src/app/api/fetch_user/route.ts", "src/components/Events.jsx"  ],
   "exclude": [
     "node_modules"
   ]
