@@ -1,5 +1,5 @@
 import "../components/css/mobileSidebar.css"
-import { , SheetContent } from "@/components/ui/sheet"
+import {  SheetContent } from "@/components/ui/sheet"
 import { Poppins } from "next/font/google"
 import Link from "next/link"
 const poppins = Poppins({
