@@ -35,7 +35,7 @@ const Gallery = () => {
   }
 
   return (
-    <section className={`gallery-section ${poppins.variable} ${inriaSerif.variable}`}>
+    <section className={` ${poppins.variable} ${inriaSerif.variable} gallery-section`}>
       <div className="gallery-container">
         <motion.div
           className="teams-header"
@@ -44,7 +44,7 @@ const Gallery = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className={`text-7xl font-extrabold mb-4 text-gray-400 ${poppins.className}`}>GALLERY</h2>
+          <h2 className={`text-7xl font-extrabold mb-4 text-gray-400 text-center ${poppins.className}`}>GALLERY</h2>
           <p className={`text-gray-500 max-w-2xl text-3xl mx-auto font-semibold ${inriaSerif.className}`}>
           Capturing moments from our events and activities
           </p>
