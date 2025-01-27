@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={" " + poppins.className}>
         <div className="fixed top-0 left-0 w-full h-full z-[-1]">
-          {/* <CanvasAnimation /> */}
+          <CanvasAnimation />
         </div>
         <Navbar />
         {children}
