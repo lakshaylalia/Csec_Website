@@ -48,13 +48,13 @@ export default function Landing() {
 
   return (
     <div className={`landing-container ${poppins.variable} ${inriaSerif.variable}`}>
-      {backgroundImages.map((image, index) => (
+      {/* {backgroundImages.map((image, index) => (
         <div
           key={index}
           className={`background-image ${index === currentImageIndex ? "active" : ""}`}
           style={{ backgroundImage: `url(${image})` }}
         />
-      ))}
+      ))} */}
       <div className="content-container">
         <div className="main-content">
           <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
