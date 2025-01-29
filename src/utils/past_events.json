@@ -1,5 +1,42 @@
 [
     {
+        "event":"Heuristics",
+        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937900/third_vufqgg.png",
+        "date":"2025-01-26",
+        "desc":"Show off your coding skills to the world",
+        "long_desc":"A coding contest is a competitive event where individuals or teams solve programming challenges within a specified time frame. These contests test participants' problem-solving abilities, algorithmic skills, and coding proficiency. Coding contests are popular among students, professionals, and coding enthusiasts and can be conducted online or in person.",
+        "long_date":"January 26, 2025",
+        
+        "event_type":"Virtual Event"
+    },
+    {
+        "event":"CodeWrap",
+        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937899/fourthpng_l0lkt4.png",
+        "date":"2024-12-30",
+        "desc":"Show off your coding skills to the world",
+        "long_date":"December 30, 2024",
+        "long_desc":"A Code Wrap is a coding competition is an exciting event organized by a society where individuals or teams compete to solve programming challenges within a specified time frame. This competition tests participants' problem-solving abilities, algorithmic skills, and coding proficiency. The event typically includes a series of problems that vary in difficulty, requiring participants to apply their knowledge of data structures, algorithms, and programming languages to find optimal solutions. The competition fosters a spirit of innovation and creativity, encouraging participants to think critically and work efficiently under pressure. It also provides an excellent opportunity for coders to showcase their skills, learn from peers, and gain recognition for their talents. Whether you are a student, professional, or coding enthusiast, this coding competition offers a platform to challenge yourself, improve your coding abilities, and connect with a community of like-minded individuals. Join us for a thrilling experience that combines learning, competition, and camaraderie.",
+        "event_type":"Virtual Event"
+    },
+    
+    {
+        "event":"Introduction-to-CS",
+        "image":"https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738072477/intro_to_cs_flo1gr.jpg",
+        "date":"2024-09-19",
+        "desc":"Join and enter the world of programming.",
+        "long_date":"September 19, 2024",
+        "long_desc":"Introduction to Computer Science workshop was an immersive event organized by a passionate team dedicated to making computer science accessible to everyone. Participants were introduced to foundational concepts such as programming, algorithms, and problem-solving, along with exciting fields like app development, web development, game development, and UI/UX design.",
+        "event_type":"Offline Event"
+    },
+    {
+        "event":"Git-Workshop",
+        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937896/first_dvr2bd.png",
+        "date":"2024-10-23",
+        "desc":"Learn about basic of git and github",
+        "long_date":"October 23, 2024",
+        "long_desc":"A Git and GitHub workshop is an interactive educational session designed to teach participants the fundamentals of version control using Git and the collaborative features of GitHub. This workshop covers essential topics such as initializing a Git repository, staging and committing changes, branching and merging, resolving conflicts, and using GitHub for remote repository management. Participants will learn how to collaborate on projects, contribute to open-source software, and manage their codebase efficiently. The workshop includes hands-on exercises, real-world examples, and best practices to help attendees gain practical experience and confidence in using Git and GitHub for their development projects. Whether you are a beginner or looking to enhance your version control skills, this workshop provides valuable insights and techniques to streamline your workflow and improve your coding collaboration.",
+        "event_type":"Offline Event"
+    },{
         "event":"Hackathon",
         "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731938153/image_2_m1iswc.png",
         "date":"Coming soon..",
@@ -19,34 +56,9 @@
         "event_type":"Offline Event"
     },
     
-    {
-        "event":"Introduction-to-CS",
-        "image":"https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738072477/intro_to_cs_flo1gr.jpg",
-        "date":"2024-09-19",
-        "desc":"Join and enter the world of programming.",
-        "long_date":"September 19, 2024",
-        "long_desc":"Introduction to Computer Science workshop was an immersive event organized by a passionate team dedicated to making computer science accessible to everyone. Participants were introduced to foundational concepts such as programming, algorithms, and problem-solving, along with exciting fields like app development, web development, game development, and UI/UX design.",
-        "event_type":"Offline Event"
-    },
     
-    {
-        "event":"Heuristics",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937900/third_vufqgg.png",
-        "date":"2025-01-26",
-        "desc":"Show off your coding skills to the world",
-        "long_desc":"A coding contest is a competitive event where individuals or teams solve programming challenges within a specified time frame. These contests test participants' problem-solving abilities, algorithmic skills, and coding proficiency. Coding contests are popular among students, professionals, and coding enthusiasts and can be conducted online or in person.",
-        "long_date":"January 26, 2025",
-        
-        "event_type":"Virtual Event"
-    },{
-        "event":"Git-Workshop",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937896/first_dvr2bd.png",
-        "date":"2024-10-23",
-        "desc":"Learn about basic of git and github",
-        "long_date":"October 23, 2024",
-        "long_desc":"A Git and GitHub workshop is an interactive educational session designed to teach participants the fundamentals of version control using Git and the collaborative features of GitHub. This workshop covers essential topics such as initializing a Git repository, staging and committing changes, branching and merging, resolving conflicts, and using GitHub for remote repository management. Participants will learn how to collaborate on projects, contribute to open-source software, and manage their codebase efficiently. The workshop includes hands-on exercises, real-world examples, and best practices to help attendees gain practical experience and confidence in using Git and GitHub for their development projects. Whether you are a beginner or looking to enhance your version control skills, this workshop provides valuable insights and techniques to streamline your workflow and improve your coding collaboration.",
-        "event_type":"Offline Event"
-    },
+    
+   
     {
         "event":"Programming-Meet",
         "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937898/sixth_ypaict.png",
@@ -56,15 +68,7 @@
         "long_desc":"A Programming Meet is an engaging event organized by us where coding enthusiasts come together to learn, discuss, and collaborate on various programming topics. This event provides a platform for participants to share knowledge, exchange ideas, and work on coding challenges in a collaborative environment. The meet includes interactive sessions led by experienced programmers, hands-on coding exercises, and group discussions on the latest trends and technologies in the programming world. Participants will have the opportunity to network with like-minded individuals, seek guidance from mentors, and enhance their problem-solving skills. Whether you are a beginner looking to learn the basics or an experienced coder aiming to refine your skills, the Programming Meet offers valuable insights and practical experience to help you grow as a programmer. Join us to explore new coding techniques, collaborate on projects, and be a part of a vibrant programming community.",
         "event_type":"Virtual Event"
     },
-    {
-        "event":"CodeWrap",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937899/fourthpng_l0lkt4.png",
-        "date":"2024-12-30",
-        "desc":"Show off your coding skills to the world",
-        "long_date":"December 30, 2024",
-        "long_desc":"A Code Wrap is a coding competition is an exciting event organized by a society where individuals or teams compete to solve programming challenges within a specified time frame. This competition tests participants' problem-solving abilities, algorithmic skills, and coding proficiency. The event typically includes a series of problems that vary in difficulty, requiring participants to apply their knowledge of data structures, algorithms, and programming languages to find optimal solutions. The competition fosters a spirit of innovation and creativity, encouraging participants to think critically and work efficiently under pressure. It also provides an excellent opportunity for coders to showcase their skills, learn from peers, and gain recognition for their talents. Whether you are a student, professional, or coding enthusiast, this coding competition offers a platform to challenge yourself, improve your coding abilities, and connect with a community of like-minded individuals. Join us for a thrilling experience that combines learning, competition, and camaraderie.",
-        "event_type":"Virtual Event"
-    },
+    
     {
         "event":"Bootcamp",
         "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937900/second_hzbfq1.png",
