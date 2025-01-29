@@ -1,5 +1,5 @@
 {
-    "hackathon":[
+    "Hackathon":[
         {
             "id":1,
             "faq_ques":"Are there any prizes involved?",
@@ -61,6 +61,38 @@
             "faq_ans":"You can contact the organizers by emailing them at  info@technologicalinstituteofhamirpur.com or by filling out a contact form at the website."
         }
     ],
+    "Introduction-to-CS":[
+        {
+            "id":1,
+            "faq_ques":"What is the event about?",
+            "faq_ans":"An exciting introduction to computer science, exploring programming, algorithms, app and web development, game design, and UI/UX."
+        },
+        {
+            "id":2,
+            "faq_ques":"Who should attend this event?",
+            "faq_ans":"Beginners, students, and anyone curious about technology—no prior experience needed!"
+        },
+        {
+            "id":3,
+            "faq_ques":" Do I need to know coding to attend?",
+            "faq_ans":"No, this event is beginner-friendly and accessible to all."
+        },
+        {
+            "id":4,
+            "faq_ques":" Why should I join this event?",
+            "faq_ans":"Discover your passion for tech, learn new skills, and get inspired to shape your future in computer science."
+        },
+        {
+            "id":5,
+            "faq_ques":"What’s the cost of attending?",
+            "faq_ans":"The event is completely free to join."
+        },
+        {
+            "id":6,
+            "faq_ques":"How can this event shape my future?",
+            "faq_ans":"It’s a stepping stone to a career or hobby in tech, unlocking endless opportunities.Join us to explore, learn, and get inspired in the world of computer science! 🌟"
+        }
+    ],
     "Heuristics":[
         {
             "id":1,
@@ -93,7 +125,7 @@
             "faq_ans":"Some common coding problems to solve include sorting arrays, finding the maximum value, and implementing a binary search algorithm."
         }
     ],
-    "GitWorkshop":[
+    "Git-Workshop":[
         {
             "id":1,
             "faq_ques":"What are the topics for the Git and Github workshop?",
@@ -125,7 +157,7 @@
             "faq_ans":"You can contact the organizers by emailing them at"
         }
     ],
-    "ProgrammingMeet":[
+    "Programming-Meet":[
         {
             "id":1,
             "faq_ques":"What are the topics for the programming meet?",
@@ -221,7 +253,7 @@
             "faq_ans":"Some common programming problems to solve include implementing a linked list, finding the shortest path, and sorting an array."
         }
     ],
-    "FreedomDay":[
+    "Freedom-Day":[
         {
             "id":1,
             "faq_ques":"What are the topics for the Software Freedom Day?",
@@ -253,7 +285,7 @@
             "faq_ans":"Some common software freedom topics to discuss include the importance of software freedom, the benefits of open-source software, and the challenges faced by proprietary software."
         }
     ],
-    "InternTalk":[
+    "Intern-Talk":[
         {
             "id":1,
             "faq_ques":"What are the topics for the intern talks?",
@@ -285,4 +317,5 @@
             "faq_ans":"Some common intern talk topics to discuss include the importance of software development, the benefits of data analysis, and the challenges faced by machine learning."
         }
     ]
+    
 }
