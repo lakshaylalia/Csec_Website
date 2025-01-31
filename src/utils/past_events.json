@@ -4,7 +4,7 @@
         "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937900/third_vufqgg.png",
         "date":"2025-01-26",
         "desc":"Show off your coding skills to the world",
-        "long_desc":"A coding contest is a competitive event where individuals or teams solve programming challenges within a specified time frame. These contests test participants' problem-solving abilities, algorithmic skills, and coding proficiency. Coding contests are popular among students, professionals, and coding enthusiasts and can be conducted online or in person.",
+        "long_desc":"Heuristics is our flagship coding contest where logic meets adrenaline and coders become problem-solving heroes! Designed to challenge your algorithmic skills and ignite your competitive spirit.Whether you're a code ninja or just love the thrill of debugging under pressure, this contest is your playground to shine.Held every month, Heuristics is your regular dose of brain-teasing fun and fierce competition. Each edition brings fresh challenges, tougher problems, and bigger opportunities to learn, grow, and show off your skills. Think fast, code faster, and outsmart the clock, because at Heuristics, it's not just about finding solutions, it's about finding them with style!",
         "long_date":"January 26, 2025",
         
         "event_type":"Virtual Event"
@@ -15,7 +15,7 @@
         "date":"2024-12-30",
         "desc":"Show off your coding skills to the world",
         "long_date":"December 30, 2024",
-        "long_desc":"A Code Wrap is a coding competition is an exciting event organized by a society where individuals or teams compete to solve programming challenges within a specified time frame. This competition tests participants' problem-solving abilities, algorithmic skills, and coding proficiency. The event typically includes a series of problems that vary in difficulty, requiring participants to apply their knowledge of data structures, algorithms, and programming languages to find optimal solutions. The competition fosters a spirit of innovation and creativity, encouraging participants to think critically and work efficiently under pressure. It also provides an excellent opportunity for coders to showcase their skills, learn from peers, and gain recognition for their talents. Whether you are a student, professional, or coding enthusiast, this coding competition offers a platform to challenge yourself, improve your coding abilities, and connect with a community of like-minded individuals. Join us for a thrilling experience that combines learning, competition, and camaraderie.",
+        "long_desc":"Code Wrap is our ultimate winter coding showdown, where logic meets the chill and coders heat things up with mind-bending solutions! Whether you're a code wizard or just looking to escape the cold with some serious brain flexing, this competition is the perfect playground. Brace yourself for a series of icy challenges that test your problem-solving skills, algorithmic genius, and coding prowess. With problems ranging from frosty puzzles to blizzard-level logic battles, you’ll need creativity and quick thinking to wrap up those solutions in style. It’s not just about cracking the code, it’s about doing it with flair while the winter winds blow outside. So grab your hoodies, warm up those keyboards, and get ready for a flurry of fun, fierce competition, and coding glory.",
         "event_type":"Virtual Event"
     },
     
@@ -25,7 +25,7 @@
         "date":"2024-09-19",
         "desc":"Join and enter the world of programming.",
         "long_date":"September 19, 2024",
-        "long_desc":"Introduction to Computer Science workshop was an immersive event organized by a passionate team dedicated to making computer science accessible to everyone. Participants were introduced to foundational concepts such as programming, algorithms, and problem-solving, along with exciting fields like app development, web development, game development, and UI/UX design.",
+        "long_desc":"New to coding? Let’s turn those ‘Oops!’ moments into ‘Aha!’ breakthroughs as we dive into the basics of programming, algorithms, and problem-solving, while also exploring cool fields like app development, web development, game design, and UI/UX. Whether you're new to tech or ready to level up, this workshop sparks creativity and opens the door to endless possibilities.",
         "event_type":"Offline Event"
     },
     {
@@ -34,14 +34,14 @@
         "date":"2024-10-23",
         "desc":"Learn about basic of git and github",
         "long_date":"October 23, 2024",
-        "long_desc":"A Git and GitHub workshop is an interactive educational session designed to teach participants the fundamentals of version control using Git and the collaborative features of GitHub. This workshop covers essential topics such as initializing a Git repository, staging and committing changes, branching and merging, resolving conflicts, and using GitHub for remote repository management. Participants will learn how to collaborate on projects, contribute to open-source software, and manage their codebase efficiently. The workshop includes hands-on exercises, real-world examples, and best practices to help attendees gain practical experience and confidence in using Git and GitHub for their development projects. Whether you are a beginner or looking to enhance your version control skills, this workshop provides valuable insights and techniques to streamline your workflow and improve your coding collaboration.",
+        "long_desc":"The workshop was an interactive journey through the world of version control and collaboration. Participants got hands-on experience with Git, learning the ropes of initializing repositories, staging and committing changes, branching and merging, and resolving conflicts. We also explored the collaborative magic of GitHub, from managing remote repositories to contributing to open-source projects. With real-world examples, fun exercises, and expert tips, everyone walked away with the skills to streamline their workflow and boost coding collaboration. It was a day of learning, coding, and plenty of Git puns,the perfect recipe for mastering version control.",
         "event_type":"Offline Event"
     },{
         "event":"Hackathon",
         "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731938153/image_2_m1iswc.png",
         "date":"Coming soon..",
         "desc":"Meet new people and build projects",
-        "long_desc":"A hackathon is an event, typically lasting between a day and a week, in which individuals or teams collaborate intensively on software projects. Hackathons are often organized around a specific theme or goal, such as developing solutions for a particular industry, creating innovative applications, or addressing societal challenges. Participants, who can range from developers and designers to entrepreneurs and students, work together to brainstorm, prototype, and present their projects within the given time frame.",
+        "long_desc":"Brace yourselves for a code-fueled marathon where caffeine meets creativity it’s hackathon time! This is your chance to team up, brainstorm wild ideas, and transform them into working prototypes within a thrilling time frame. Think sleepless nights, intense coding sessions, and epic lightbulb moments that'll blow your mind. Whether you're here to build the next big app, solve real-world problems, or simply flex your dev skills, it's all about puShing boundaries and thinking outside the box.Expect a vibrant atmosphere buzzing with innovation, mentor support to guide your genius ideas, and friendly competition to fuel your hustle. Don’t worry, we’ve got plenty of snacks, caffeine, and positive vibes to keep you going! It’s time to code, create, and conquer , because at this hackathon, anything is possible.",
         "long_date":"Coming soon..",
         "event_type":"Virtual Event"
     },
@@ -50,7 +50,7 @@
         "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937895/fifth_xvgdcc.png",
         "date":"Coming soon..",
         "desc":"Join to explore new technology",
-        "long_desc":"A workshop is an educational session where participants engage in interactive learning through discussions, activities, and hands-on practice. Workshops are typically designed to teach specific skills, concepts, or techniques and are led by experts or facilitators in the relevant field. They are suitable for various settings, including professional development, academic environments, community education, and creative endeavors.",
+        "long_desc":"Ready to ditch the mouse and embrace the terminal? Our Linux workshop is your backstage pass to the world of open-source magic. From mastering essential commands to navigating file systems and shell scripting, you'll learn to wield the power of Linux like a pro. Whether you're a newbie or a curious explorer, it's time to level up your tech game and go full command-line chad!",
         "long_date":"Coming soon..",
         
         "event_type":"Offline Event"
@@ -65,7 +65,7 @@
         "date":"Coming soon..",
         "desc":"Join to learn and discuss about coding",
         "long_date":"Coming soon..",
-        "long_desc":"A Programming Meet is an engaging event organized by us where coding enthusiasts come together to learn, discuss, and collaborate on various programming topics. This event provides a platform for participants to share knowledge, exchange ideas, and work on coding challenges in a collaborative environment. The meet includes interactive sessions led by experienced programmers, hands-on coding exercises, and group discussions on the latest trends and technologies in the programming world. Participants will have the opportunity to network with like-minded individuals, seek guidance from mentors, and enhance their problem-solving skills. Whether you are a beginner looking to learn the basics or an experienced coder aiming to refine your skills, the Programming Meet offers valuable insights and practical experience to help you grow as a programmer. Join us to explore new coding techniques, collaborate on projects, and be a part of a vibrant programming community.",
+        "long_desc":"Think code jams, tech chats, and creative sparks flying everywhere that's exactly our programming meet. From showcasing cool projects and solutions to cracking code challenges and swapping tech tips, there's something for everyone. Whether you're here to network, troubleshoot that stubborn bug, or just vibe with fellow coders over coffee, this meet promises a mix of innovation, inspiration, and geeky fun. No RSVP needed ,just bring your passion for code!",
         "event_type":"Virtual Event"
     },
     
@@ -75,7 +75,7 @@
         "date":"Coming soon..",
         "desc":"Learn about dynamic programming",
         "long_date":"Coming soon..",
-        "long_desc":"A Programming Bootcamp is an intensive and immersive event organized by a society where participants dive deep into various programming topics over a short period. This bootcamp is designed to provide a comprehensive learning experience, covering fundamental concepts as well as advanced techniques. Participants will engage in hands-on coding sessions, interactive workshops, and collaborative projects, all led by experienced instructors and industry professionals. The bootcamp curriculum includes topics such as algorithms, data structures, web development, software engineering principles, and more. Through practical exercises and real-world examples, attendees will gain valuable skills and knowledge to enhance their programming proficiency. The bootcamp also offers opportunities for networking, mentorship, and peer collaboration, fostering a supportive learning environment. Whether you are a beginner looking to kickstart your programming journey or an experienced coder aiming to refine your skills, the Programming Bootcamp provides an intensive and rewarding experience to accelerate your growth as a programmer. Join us for a transformative learning adventure that combines education, practice, and community",
+        "long_desc":"Strap in and power up, it's bootcamp time!  Whether you're taking your first step into tech or leveling up your coding game, this immersive experience is designed to transform you into a confident problem-solver and creator. We go beyond the basics, diving into hands-on sessions that teach you to build, debug, and innovate with confidence.Expect interactive workshops, real-world projects, and expert mentorship to fuel your learning journey. From coding fundamentals to advanced concepts, you'll get a front-row seat to everything you need to thrive in the tech world. No boring slides here — just fun challenges, late-night breakthroughs, and plenty of aha moments!By the end of the bootcamp, you won’t just be a participant — you’ll be a tech trailblazer, ready to take on complex challenges and make a mark. So lace up those coding boots, grab your curiosity, and let's get to work.",
         "event_type":"Virtual Event"
     },
     {

@@ -48,14 +48,16 @@ const About = () => {
             transition={{ duration: 0.4, delay: 0.4 }}
           >
             <p className="description">
-              Our vibrant community is dedicated to exploring the vast world of technology, coding, and innovation. We
-              offer a welcoming space for students of all skill levels to learn, collaborate, and grow together.
+            Ready to turn bugs into features? We got you! Our community is where 'syntax errors' turn into 'wow i made this?” moments. 
               <br />
               <br />
-              From hands-on workshops and coding competitions to guest lectures and hackathons, our activities are
-              designed to inspire and challenge. Whether you&apos;re a seasoned coder or just starting your journey, CSEC is
-              your platform to learn, create, and make a lasting impact in the world of technology.
-            </p>
+              We bring you hands-on workshops to level up your coding skills, 
+              hackathons that challenge you to think outside the box, 
+              guest lectures from industry pros to drop some knowledge, 
+              and competitive programming challenges to keep you on your toes. 
+
+              Whether you&apos;re squashing bugs or building dreams, we make sure you&apos;re never alone on this tech journey,because coding is better with company (and caffeine)!
+          </p>
           </motion.div>
           <motion.div
             className="about-image"
