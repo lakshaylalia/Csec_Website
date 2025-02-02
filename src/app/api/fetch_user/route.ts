@@ -1,27 +1,32 @@
-import axios from "axios";
-import { NextResponse } from "next/server";
-import { sha512 } from 'js-sha512';
+import axios from 'axios';
+import { createHash } from 'crypto';
+import { NextResponse } from 'next/server';
 
-export async function POST(req: Request) {
+export async function GET() {
     try {
-        const contestId = await req.json()
         const currentUnixTime = Math.floor(Date.now() / 1000);
-        const rand=123456
-        const hashHex = sha512.create().update(`${rand}/contest.standings?apiKey=${process.env.API_KEY}&contestId=${contestId}&time=${currentUnixTime}#${process.env.API_SECRET}`).hex()
-        const res: any = await axios.post(`https://codeforces.com/api/contest.standings?contestId=${contestId}&apiKey=${process.env.API_KEY}&time=${currentUnixTime}&apiSig=123456${hashHex}`)
-        const data = res.data?.result?.rows;
-        const team: any = []
-        for (let i = 0; i < 10; i++) {
-            let name: string
-            name = data[i].party.teamId ? data[i].party.teamName : data[i].party.members[0].handle;
-            let obj={"Rank":`${data[i].rank}`,"Name":`${name}`,"Score":`${data[i].points}`}
-            team.push(obj)
-        }
-        return new NextResponse(JSON.stringify(team), { status: 200 })
+        const rand = 123456;
+        const contestId = 518605;
+        const groupCode = "Mka6Tznt4j";
+        const apiKey = process.env.API_KEY;
+        const apiSecret = process.env.API_SECRET;
+        const hashString = `${rand}/contest.hacks?apiKey=${apiKey}&contestId=518605&groupCode=${groupCode}&time=${currentUnixTime}#${apiSecret}`;
+        const hashHex = createHash('sha512').update(hashString).digest('hex');
+        const res: any = await axios.get(`https://mirror.codeforces.com/api/contest.hacks?groupCode=${groupCode}&contestId=${contestId}&apiKey=${apiKey}&time=${currentUnixTime}&apiSig=${rand}${hashHex}`);
+        console.log(res);
 
+        const data = res.data?.result?.rows;
+        const team: any = [];
+        // for (let i = 0; i < 10; i++) {
+        //     let name: string;
+        //     name = data[i].party.teamId ? data[i].party.teamName : data[i].party.members[0].handle;
+        //     let obj = { "Rank": `${data[i].rank}`, "Name": `${name}`, "Score": `${data[i].points}` };
+        //     team.push(obj);
+        // }
+        return new NextResponse(JSON.stringify(data), { status: 200 });
 
     } catch (error) {
-        console.log(error)
-        return new NextResponse("Internal server error", { status: 500 })
+        console.error(error);
+        return new NextResponse(JSON.stringify({ error: 'Failed to fetch data' }), { status: 500 });
     }
 }

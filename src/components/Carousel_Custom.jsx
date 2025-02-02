@@ -31,7 +31,7 @@ const Leaderboard = () => {
   const fetchLeaderboardData = async () => {
     try {
       const contestId = 1991
-      const response = await axios.post("/api/fetch_user", contestId)
+      const response = await axios.get("/api/fetch_user", contestId)
       setLeaderboardData(response.data)
     } catch (error) {
       console.error("Error fetching leaderboard data:", error)
