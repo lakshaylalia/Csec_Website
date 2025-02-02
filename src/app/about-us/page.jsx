@@ -48,7 +48,7 @@ const About = () => {
             transition={{ duration: 0.4, delay: 0.4 }}
           >
             <p className="description">
-            Ready to turn bugs into features? We got you! Our community is where 'syntax errors' turn into 'wow i made this?” moments. 
+            Ready to turn bugs into features? We got you! Our community is where &quot;syntax errors&quot; turn into &quot;wow i made this?&quot; moments. 
               <br />
               <br />
               We bring you hands-on workshops to level up your coding skills, 
@@ -56,7 +56,7 @@ const About = () => {
               guest lectures from industry pros to drop some knowledge, 
               and competitive programming challenges to keep you on your toes. 
 
-              Whether you&apos;re squashing bugs or building dreams, we make sure you&apos;re never alone on this tech journey,because coding is better with company (and caffeine)!
+              Whether you are squashing bugs or building dreams, we make sure you are never alone on this tech journey,because coding is better with company (and caffeine)!
           </p>
           </motion.div>
           <motion.div
