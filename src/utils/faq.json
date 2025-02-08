@@ -2,255 +2,171 @@
     "Hackathon":[
         {
             "id":1,
-            "faq_ques":"Are there any prizes involved?",
-            "faq_ans":"Yes, there are bunch of prizes involved and also some goodies and merchandises like t-shirts and sweatshirts"
+            "faq_ques":"Do I need a team to join the hackathon?",
+            "faq_ans":" You can totally join solo or with a team — the choice is yours! If you don’t have a team, don’t worry, you’ll find like-minded hackers to collaborate with during the event."
         },
         {
             "id":2,
-            "faq_ques":"What are the eligibility criteria?",
-            "faq_ans":"To participate in the hackathon, you must be 18 years or older, have a computer, internet connection, and a good sense of humor."
+            "faq_ques":" What will we be building?",
+            "faq_ans":" Anything and everything! From apps to websites, games to innovative tech solutions, the sky’s the limit. Bring your ideas and watch them come to life with a team of passionate coders."
         },
         {
             "id":3,
-            "faq_ques":"Venue of the hackathon taking place?",
-            "faq_ans":"The hackathon will be taking place on October 12th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+            "faq_ques":" Is there a time limit for the hackathon?",
+            "faq_ans":"Yes! You’ll have a set time frame to create your project, so you’ll need to plan, code, and present your masterpiece under pressure. Time management is key!"
         },
         {
             "id":4,
-            "faq_ques":"How much does the registration fee?",
-            "faq_ans":"The registration fee includes admission to the hackathon, food, and accommodation."
-        },
-        {
-            "id":5,
-            "faq_ques":"What is the format of the hackathon?",
-            "faq_ans":"The hackathon will be a 3-hour event with a focus on innovation, creativity, and problem-solving."
-        },{
-            "id":6,
-            "faq_ques":"What are the rules for the hackathon?",
-            "faq_ans":"The rules for the hackathon will be provided at the beginning of the event. All participants must follow the rules to ensure a fair and enjoyable experience."
+            "faq_ques":"What if I don’t know where to start?",
+            "faq_ans":"Don’t worry! You’ll have access to mentors, resources, and fellow participants to guide you through the process. Everyone’s in it together!"
         }
     ],
     "Linux":[
         {
             "id":1,
-            "faq_ques":"What are the topics for the workshops?",
-            "faq_ans":"The workshops will cover various topics such as Python programming, web development, machine learning, and data analysis."
+            "faq_ques":" Do I need to know anything about Linux before attending?",
+            "faq_ans":"Not at all! This workshop is designed for everyone, whether you’re completely new to Linux or just want to get more comfortable with the system. We'll start from the basics and work our way up."
         },
         {
             "id":2,
-            "faq_ques":"How much does the workshop registration fee include?",
-            "faq_ans":"The workshop registration is completely free."
+            "faq_ques":"Is Linux hard to learn?",
+            "faq_ans":"Linux might seem a bit intimidating at first, but once you get the hang of it, you'll love its power and flexibility! Plus, we’ll be there to guide you step by step, so don’t stress."
         },
         {
             "id":3,
-            "faq_ques":"When and where is the workshop taking place?",
-            "faq_ans":"The workshops will be taking place on October 13th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+            "faq_ques":"Why should I learn Linux?",
+            "faq_ans":"Linux is everywhere — from servers to embedded devices and even supercomputers! It’s one of the most powerful tools in a developer’s toolkit, and once you know it, you’ll be able to handle pretty much anything tech-related that comes your way."
         },
         {
             "id":4,
-            "faq_ques":"What are the prerequisites for attending the workshops?",
-            "faq_ans":"To attend the workshops, you must have a computer, internet connection, and a good sense of humor."
+            "faq_ques":" Do I need any special software for this workshop?",
+            "faq_ans":"Nope! All you need is a laptop, and we'll provide the rest. We’ll guide you through the tools you need to start using Linux effectively."
         },{
             "id":5,
-            "faq_ques":"What are the benefits of attending the workshops?",
-            "faq_ans":"Attending the workshops will help you learn new skills, expand your knowledge, and have a fun and engaging experience."
-        },
-        {
-            "id":6,
-            "faq_ques":"How can I get in touch with the organizers?",
-            "faq_ans":"You can contact the organizers by emailing them at  info@technologicalinstituteofhamirpur.com or by filling out a contact form at the website."
+            "faq_ques":"Will I get any resources after the workshop?",
+            "faq_ans":"Yes! You’ll receive notes, cheat sheets, and useful resources to help you continue your Linux journey long after the workshop ends."
         }
     ],
     "Introduction-to-CS":[
         {
             "id":1,
-            "faq_ques":"What is the event about?",
-            "faq_ans":"An exciting introduction to computer science, exploring programming, algorithms, app and web development, game design, and UI/UX."
+            "faq_ques":"Is this workshop for beginners only?",
+            "faq_ans":"While it’s perfect for those just starting out, anyone looking to get a solid foundation in computer science can benefit from this workshop! Whether you're new or want a refresher, there's something for everyone."
         },
         {
             "id":2,
-            "faq_ques":"Who should attend this event?",
-            "faq_ans":"Beginners, students, and anyone curious about technology—no prior experience needed!"
+            "faq_ques":" Do I need to bring anything?",
+            "faq_ans":"Just bring your laptop, your curiosity, and your enthusiasm for learning. If you bring a snack too, we won’t judge."
         },
         {
             "id":3,
-            "faq_ques":" Do I need to know coding to attend?",
-            "faq_ans":"No, this event is beginner-friendly and accessible to all."
-        },
-        {
-            "id":4,
-            "faq_ques":" Why should I join this event?",
-            "faq_ans":"Discover your passion for tech, learn new skills, and get inspired to shape your future in computer science."
-        },
-        {
-            "id":5,
-            "faq_ques":"What’s the cost of attending?",
-            "faq_ans":"The event is completely free to join."
-        },
-        {
-            "id":6,
-            "faq_ques":"How can this event shape my future?",
-            "faq_ans":"It’s a stepping stone to a career or hobby in tech, unlocking endless opportunities.Join us to explore, learn, and get inspired in the world of computer science! 🌟"
+            "faq_ques":" Can I ask questions during the workshop?",
+            "faq_ans":"Absolutely! This workshop is all about making computer science easy to understand, so feel free to ask questions, share your thoughts, or even get advice on coding challenges. We’re all in this together!"
         }
     ],
     "Heuristics":[
         {
             "id":1,
-            "faq_ques":"What are the rules for the coding contest?",
-            "faq_ans":"The rules for the coding contest will be provided at the beginning of the event. All participants must follow the rules to ensure a fair and enjoyable experience."
+            "faq_ques":"Do I need to be a coding ninja to join?",
+            "faq_ans":"While we love ninjas, you don’t need to be one to participate. Whether you're a beginner or a seasoned coder, if you’ve got the will to code, we’ve got the thrill to challenge you!"
         },
         {
             "id":2,
-            "faq_ques":"How much does the coding contest registration fee include?",
-            "faq_ans":"The coding contest registration is completely free."
+            "faq_ques":"How often is this contest?",
+            "faq_ans":"Heuristics takes place every month, it’s like a monthly workout for your brain. So get ready to stretch those coding muscles regularly!"
         },
         {
             "id":3,
-            "faq_ques":"When and where is the coding contest taking place?",
-            "faq_ans":"The coding contest will be taking place on October 14th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+            "faq_ques":"What kind of problems will I face?",
+            "faq_ans":"Expect a mix of algorithmic puzzles, tricky data structure challenges, and creative coding problems that will make you think twice (and sometimes thrice). Don’t worry, we’ll make sure you get plenty of chances to show off your skills!"
         },
         {
             "id":4,
-            "faq_ques":"What are the prizes for the coding contest?",
-            "faq_ans":"The prizes for the coding contest will be provided at the end of the event."
-        },
-        {
-            "id":5,
-            "faq_ques":"How can I get in touch with the organizers?",
-            "faq_ans":"You can contact the organizers by emailing them at  info@technologicalinstituteofhamirpur.com or by filling out a contact form at the website."
-        },
-        {
-            "id":6,
-            "faq_ques":"What are some common coding problems to solve?",
-            "faq_ans":"Some common coding problems to solve include sorting arrays, finding the maximum value, and implementing a binary search algorithm."
+            "faq_ques":" Is there a time limit?",
+            "faq_ans":"Yup! Time flies when you're coding, so you’ll have to think fast and type faster. The clock is ticking, and the problems aren't waiting!"
         }
     ],
     "Git-Workshop":[
         {
             "id":1,
-            "faq_ques":"What are the topics for the Git and Github workshop?",
-            "faq_ans":"The workshop will cover Git and Github basics, creating repositories, collaborating with others, and using Git for version control."
+            "faq_ques":"Do I need to be familiar with coding to attend?",
+            "faq_ans":"Not at all! If you can click buttons and type commands without panicking, you're good to go. We'll guide you through the rest."
         },
         {
             "id":2,
-            "faq_ques":"How much does the workshop registration fee include?",
-            "faq_ans":"The workshop registration is completely free."
+            "faq_ques":" What will I learn during the workshop?",
+            "faq_ans":"You'll learn how to initialize a Git repository, stage and commit changes, create branches, merge them, handle conflicts, and use GitHub for collaboration and remote project management."
         },
         {
             "id":3,
-            "faq_ques":"When and where is the workshop taking place?",
-            "faq_ans":"The workshop will be taking place on October 15th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+            "faq_ques":"Will I actually use GitHub after this workshop?",
+            "faq_ans":"Oh, absolutely! You'll be pushing, pulling, and forking like a pro in no time."
         },
         {
             "id":4,
-            "faq_ques":"What are the prerequisites for attending the workshop?",
-            "faq_ans":"To attend the workshop, you must have a computer, internet connection, and a good sense of humor."
-        },
-        {
-            "id":5,
-            "faq_ques":"What are the benefits of attending the workshop?",
-            "faq_ans":"Attending the workshop will help you learn new skills, expand your knowledge, and have a fun and engaging experience."
-        },
-        {
-            "id":6,
-            "faq_ques":"How can I get in touch with the organizers?",
-            "faq_ans":"You can contact the organizers by emailing them at"
+            "faq_ques":" Is attending this workshop actually helpful?",
+            "faq_ans":"Absolutely! Whether you're a beginner or a seasoned coder, mastering Git and GitHub is essential for collaboration and version control in the real world. Plus, it's a skill that's highly valued in the tech industry."
         }
     ],
     "Programming-Meet":[
         {
             "id":1,
-            "faq_ques":"What are the topics for the programming meet?",
-            "faq_ans":"The programming meet will cover various programming languages, such as Python, Java, and C++, as well as algorithms and data structures."
+            "faq_ques":"What happens at a programming meet?",
+            "faq_ans":"It’s a mix of coding challenges, discussions, problem-solving, and networking with fellow coders. You'll get the chance to learn, share tips, and grow together in a collaborative environment."
         },
         {
             "id":2,
-            "faq_ques":"How much does the programming meet registration fee include?",
-            "faq_ans":"The programming meet registration is completely free."
-        },
-        {
-            "id":3,
-            "faq_ques":"When and where is the programming meet taking place?",
-            "faq_ans":"The programming meet will be taking place on October 16th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+            "faq_ques":"Can I ask questions during the meet?",
+            "faq_ans":"Definitely! It’s a collaborative environment, ask away, share your thoughts, and get advice from others. We’re all here to learn from each other!"
         },
         {
             "id":4,
             "faq_ques":"What are the benefits of attending the programming meet?",
             "faq_ans":"Attending the programming meet will help you learn new skills, expand your knowledge, and have a fun and engaging experience."
-        },
-        {
-            "id":5,
-            "faq_ques":"How can I get in touch with the organizers?",
-            "faq_ans":"You can contact the organizers by emailing them at info@exmaple.com"
-        },
-        {
-            "id":6,
-            "faq_ques":"What are some common programming problems to solve?",
-            "faq_ans":"Some common programming problems to solve include implementing a linked list, finding the shortest path, and sorting an array."
         }
     ],
     "CodeWrap":[
         {
             "id":1,
-            "faq_ques":"What are the rules for the coding competition?",
-            "faq_ans":"The rules for the coding competition are as follows: 1. Each participant"
+            "faq_ques":"Can I participate as a solo coder or do I need a team?",
+            "faq_ans":"You can totally go solo, or team up with fellow coders to combine your brainpower. Either way, it’s going to be an intense and fun ride!"
         },
         {
             "id":2,
-            "faq_ques":"How much does the coding competition registration fee include?",
-            "faq_ans":"The coding competition registration is completely free."
+            "faq_ques":" What kinds of challenges will we face?",
+            "faq_ans":"We’ve got everything, from mind-bending algorithms to tricky data structures. Expect to tackle problems that test both your coding speed and creativity. Think of it as a workout for your coding brain!"
         },
         {
             "id":3,
-            "faq_ques":"When and where is the coding competition taking place?",
-            "faq_ans":"The coding competition will be taking place on October 17th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+            "faq_ques":" Is there a time limit?",
+            "faq_ans":"Oh yes, the clock is ticking! You’ll have to think fast and code faster to beat the clock. It’s a race against time, but don’t worry — you’ve got this!"
         },
         {
             "id":4,
-            "faq_ques":"What are the prizes for the coding competition?",
-            "faq_ans":"The prizes for the coding competition will be provided at the end of the event."
-        },
-        {
-            "id":5,
-            "faq_ques":"How can I get in touch with the organizers?",
-            "faq_ans":"You can contact the organizers by emailing them at info@exmaple.com"
-        },
-        {
-            "id":6,
-            "faq_ques":"What are some common coding problems to solve?",
-            "faq_ans":"Some common coding problems to solve include implementing a linked list, finding the shortest path, and sorting an array."
+            "faq_ques":"Do I need to prepare in advance?",
+            "faq_ans":"Not a requirement, but brushing up on your algorithms and coding basics will definitely give you a leg up. And maybe grab a snack to fuel your brain!"
         }
     ],
     "Bootcamp":[
         {
             "id":1,
-            "faq_ques":"What are the topics for the programming bootcamp?",
-            "faq_ans":"The programming bootcamp will cover various programming languages, such as Python, Java, and C++, as well as algorithms and data structures."
+            "faq_ques":"Is the bootcamp suitable for beginners?",
+            "faq_ans":"Totally! Whether you're new to coding or just want to improve your skills, our bootcamp is perfect for hands-on learning, with guidance from experienced mentors to help you every step of the way."
         },
         {
             "id":2,
-            "faq_ques":"How much does the programming bootcamp registration fee include?",
-            "faq_ans":"The programming bootcamp registration is completely free."
+            "faq_ques":"What topics will the bootcamp cover?",
+            "faq_ans":"From the basics of programming to advanced web development, data structures, algorithms, and more — we’ll cover it all to make you a well-rounded coder."
         },
         {
             "id":3,
-            "faq_ques":"When and where is the programming bootcamp taking place?",
-            "faq_ans":"The programming bootcamp will be taking place on October 18th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
+            "faq_ques":"Will there be hands-on coding during the bootcamp?",
+            "faq_ans":" You bet! Expect plenty of coding exercises, real-world projects, and practical applications of everything you learn. We believe in learning by doing!"
         },
         {
             "id":4,
-            "faq_ques":"What are the benefits of attending the programming bootcamp?",
-            "faq_ans":"Attending the programming bootcamp will help you learn new skills, expand your knowledge, and have a fun and engaging experience."
-        },
-        {
-            "id":5,
-            "faq_ques":"How can I get in touch with the organizers?",
-            "faq_ans":"You can contact the organizers by emailing them at info@exmaple.com"
-        },
-        {
-            "id":6,
-            "faq_ques":"What are some common programming problems to solve?",
-            "faq_ans":"Some common programming problems to solve include implementing a linked list, finding the shortest path, and sorting an array."
+            "faq_ques":"How long is the bootcamp?",
+            "faq_ans":"It’s an intensive, focused experience that will span over a set period (usually a weekend or a few days), designed to maximize your learning and coding growth in a short amount of time."
         }
     ],
     "Freedom-Day":[
@@ -264,21 +180,13 @@
             "faq_ques":"How much does the Software Freedom Day registration fee include?",
             "faq_ans":"The Software Freedom Day registration is completely free."
         },
-        {
-            "id":3,
-            "faq_ques":"When and where is the Software Freedom Day taking place?",
-            "faq_ans":"The Software Freedom Day will be taking place on October 19th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
-        },
+        
         {
             "id":4,
             "faq_ques":"What are the benefits of attending the Software Freedom Day?",
             "faq_ans":"Attending the Software Freedom Day will help you learn about the importance of software freedom, open-source software, and free software."
         },
-        {
-            "id":5,
-            "faq_ques":"How can I get in touch with the organizers?",
-            "faq_ans":"You can contact the organizers by emailing them at info@exmaple.com"
-        },
+        
         {
             "id":6,
             "faq_ques":"What are some common software freedom topics to discuss?",
@@ -297,20 +205,11 @@
             "faq_ans":"The intern talk registration is completely free."
         },
         {
-            "id":3,
-            "faq_ques":"When and where is the intern talks taking place?",
-            "faq_ans":"The intern talks will be taking place on October 20th, 2022 at 10:00 AM to 5:00 PM at the Technological Institute of Hamirpur, Hamirpur, India."
-        },
-        {
             "id":4,
             "faq_ques":"What are the benefits of attending the intern talks?",
             "faq_ans":"Attending the intern talks will help you learn about the importance of software development, data analysis, and machine learning, and gain valuable experience and knowledge."
         },
-        {
-            "id":5,
-            "faq_ques":"How can I get in touch with the organizers?",
-            "faq_ans":"You can contact the organizers by emailing them at info@exmaple.com"
-        },
+        
         {
             "id":6,
             "faq_ques":"What are some common intern talk topics to discuss?",
