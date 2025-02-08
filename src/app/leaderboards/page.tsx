@@ -15,12 +15,7 @@ const poppins = Poppins({
   variable: "--font-poppins",
 })
 
-const inriaSerif = Inria_Serif({
-  subsets: ["latin"],
-  weight: ["300", "400", "700"],
-  display: "swap",
-  variable: "--font-inria-serif",
-})
+
 
 const Leaderboards = () => {
   const [leaderboardData, setLeaderboardData] = useState([])
@@ -32,22 +27,22 @@ const Leaderboards = () => {
 
   const fetchLeaderboardData = async () => {
     try {
-      const response = await axios.get('/api/fetch_user')
-      setLeaderboardData(response.data)
+      // const response = await axios.get('/api/fetch_user')
+      // setLeaderboardData(response.data)
     } catch (error) {
       console.error('Error fetching leaderboard data:', error)
       // Fallback to dummy data if API fails
       setLeaderboardData([
-        { Rank: '1', Name: 'rng_58', Score: '7974' },
-        { Rank: '2', Name: 'Zenith', Score: '6011' },
-        { Rank: '3', Name: 'OrOrZZZ!', Score: '5833' },
-        { Rank: '4', Name: 'Petr team', Score: '5792' },
-        { Rank: '5', Name: 'jcvb_matthew99', Score: '5731' },
-        { Rank: '6', Name: 'Excited', Score: '5403' },
-        { Rank: '7', Name: 'dreamoon_love_AA', Score: '5319' },
-        { Rank: '8', Name: 'step5', Score: '4951' },
-        { Rank: '9', Name: 'W4yneb0t', Score: '4762' },
-        { Rank: '10', Name: 'Gullesnuffs', Score: '4737' }
+        { Rank: '1', Name: ' antrikshkatna03', Score: '7974' },
+        { Rank: '2', Name: 'harsh580g', Score: '6011' },
+        { Rank: '3', Name: 'Navdeep066', Score: '5833' },
+        { Rank: '4', Name: 'Tanishq_v010', Score: '5792' },
+        { Rank: '5', Name: 'himanshu12102004', Score: '5731' },
+        { Rank: '6', Name: 'kashu_06', Score: '5403' },
+        { Rank: '7', Name: 'srijansharma1605', Score: '5319' },
+        { Rank: '8', Name: 'Aryan3612_', Score: '4951' },
+        { Rank: '9', Name: 'Prashant_thakur77', Score: '4762' },
+        { Rank: '10', Name: 'Harry_0509', Score: '4737' }
       ])
     }
   }
@@ -66,16 +61,10 @@ const Leaderboards = () => {
   )
 
   return (
-    <section className={`leaderboards-section ${poppins.variable} ${inriaSerif.variable}`}>
-      <div className="leaderboards-container">
-        <motion.h1 
-          className={`leaderboards-title ${poppins.className}`}
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
+    <section className={`}`}>
+      <div className="text-5xl font-bold">
+        
           Leaderboards
-        </motion.h1>
 
         <motion.div
           className="search-container"
@@ -89,7 +78,7 @@ const Leaderboards = () => {
             placeholder="Search by name"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className={`search-input ${inriaSerif.className}`}
+            className={`search-input `}
           />
         </motion.div>
 
@@ -104,15 +93,13 @@ const Leaderboards = () => {
             >
               {/* @ts-expect-error build */}
               <Avatar className={`avatar ${getAvatarColor(contestant.Rank)}`}>
-              {/* @ts-expect-error build */}
 
-                <AvatarImage src={`https://api.dicebear.com/6.x/initials/svg?seed=${contestant.Name}`} />
               {/* @ts-expect-error build */}
 
                 <AvatarFallback>{contestant.Name.substring(0, 2)}</AvatarFallback>
               </Avatar>
               <div className="contestant-info">
-                <p className={`contestant-name ${inriaSerif.className}`}>{contestant.Name}</p>
+                <p className={`contestant-name `}>{contestant.Name}</p>
                 <p className={`contestant-score ${poppins.className}`}>{contestant.Score}</p>
               </div>
               <span className={`rank ${poppins.className}`}>#{contestant.Rank}</span>

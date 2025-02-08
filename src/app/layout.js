@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Inria_Sans, Poppins } from "next/font/google";
+import { Inria_Sans, Poppins, Sansita } from "next/font/google";
 import Navbar from "../components/Navbar";
 import CanvasAnimation from "../components/CanvasAnimation";
 export const metadata = {
@@ -17,15 +17,16 @@ const poppins = Poppins({
   weight: ["100","200","300","400","500","600","700","800","900"],
 });
 
+const sansita = Sansita({
+  display: "swap",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+})
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
-      <head>
-        <head>
-         
-        </head>
-      </head>
-      <body className={" " + poppins.className}>
+      <body className={" " + sansita.className}>
         <div className="fixed top-0 left-0 w-full h-full z-[-1]">
           <CanvasAnimation />
         </div>

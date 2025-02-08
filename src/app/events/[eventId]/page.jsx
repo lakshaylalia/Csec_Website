@@ -1,5 +1,4 @@
 "use client"
-
 import { useParams } from "next/navigation"
 import React from "react"
 import { motion } from "framer-motion"
@@ -18,12 +17,7 @@ const poppins = Poppins({
     variable: "--font-poppins",
   })
   
-  const inriaSerif = Inria_Serif({
-    subsets: ["latin"],
-    weight: ["300", "400", "700"],
-    display: "swap",
-    variable: "--font-inria-serif",
-  })
+
   
   const Event = () => {
     const params = useParams()
@@ -31,7 +25,7 @@ const poppins = Poppins({
     const event = events.find((event) => event.event === eventName)
   
     return (
-      <section className={`event-section ${poppins.variable} ${inriaSerif.variable}`}>
+      <section className={`event-section ${poppins.variable}`}>
         <div className="event-container">
           <motion.div
             className="event-header"
@@ -58,11 +52,11 @@ const poppins = Poppins({
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <div className="event-type-date">
-              <p className={`${inriaSerif.className}`}>{event?.event_type}</p>
+              <p className={``}>{event?.event_type}</p>
               <div className="divider"></div>
-              <p className={`${inriaSerif.className}`}>{event?.long_date}</p>
+              <p className={``}>{event?.long_date}</p>
             </div>
-            <p className={`event-description ${inriaSerif.className} text-lg leading-relaxed`}>{event?.long_desc}</p>
+            <p className={`event-description text-lg leading-relaxed`}>{event?.long_desc}</p>
           </motion.div>
   
           <motion.div
@@ -75,10 +69,10 @@ const poppins = Poppins({
             <Accordion type="single" collapsible className="w-full space-y-4">
               {faqs[event?.event]?.map((faq, index) => (
                 <AccordionItem key={faq.id} value={faq.id}>
-                  <AccordionTrigger className={`${inriaSerif.className} text-lg font-medium`}>
+                  <AccordionTrigger className={` text-lg font-medium`}>
                     {faq.faq_ques}
                   </AccordionTrigger>
-                  <AccordionContent className={`${inriaSerif.className} text-base leading-relaxed pt-2 pb-4 px-4`}>
+                  <AccordionContent className={` text-base leading-relaxed pt-2 pb-4 px-4`}>
                     {faq.faq_ans}
                   </AccordionContent>
                 </AccordionItem>
@@ -97,9 +91,9 @@ const poppins = Poppins({
               {contact.map((contact, index) => (
                 <div key={index} className="contact-item">
                   <DiscordIcon className="contact-icon" />
-                  <p className={`${inriaSerif.className}`}>{contact.discord}</p>
+                  <p className={``}>{contact.discord}</p>
                   <div className="divider"></div>
-                  <p className={`${inriaSerif.className}`}>{contact.name}</p>
+                  <p className={``}>{contact.name}</p>
                 </div>
               ))}
             </div>

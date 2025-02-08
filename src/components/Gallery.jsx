@@ -4,7 +4,7 @@ import  React from "react"
 import { useState } from "react"
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { Poppins, Inria_Serif } from "next/font/google"
+import { Poppins } from "next/font/google"
 import image_loc from "../utils/image_loc.json"
 import "./css/gallery.css"
 
@@ -14,12 +14,7 @@ const poppins = Poppins({
   variable: "--font-poppins",
 })
 
-const inriaSerif = Inria_Serif({
-  subsets: ["latin"],
-  weight: ["300", "400", "700"],
-  display: "swap",
-  variable: "--font-inria-serif",
-})
+
 
 const Gallery = () => {
   const [hoverIndex, setHoverIndex] = useState(null)
@@ -35,7 +30,7 @@ const Gallery = () => {
   }
 
   return (
-    <section className={` ${poppins.variable} ${inriaSerif.variable} gallery-section`}>
+    <section className={` ${poppins.variable} gallery-section`}>
       <div className="gallery-container">
         <motion.div
           className="teams-header"
@@ -44,9 +39,9 @@ const Gallery = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className={`text-7xl font-extrabold mb-4 text-gray-400 text-center ${poppins.className}`}>GALLERY</h2>
-          <p className={`text-gray-500 max-w-2xl text-3xl mx-auto font-semibold ${inriaSerif.className}`}>
-          Capturing moments from our events and activities
+          <h2 className={`text-7xl font-extrabold text-gray-400 text-center ${poppins.className}`}>GALLERY</h2>
+          <p className={`text-gray-500 max-w-2xl text-center mb-5 text-3xl mx-auto font-semibold`}>
+          Capturing random moments 
           </p>
         </motion.div>
 

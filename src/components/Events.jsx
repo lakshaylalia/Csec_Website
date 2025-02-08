@@ -1,7 +1,7 @@
 "use client"
 
-import React, { useEffect, useRef } from "react"
-import { Poppins, Inria_Serif } from "next/font/google"
+import React from "react"
+import { Poppins, Inria_Serif, Sansita } from "next/font/google"
 import { motion } from "framer-motion"
 import events from "../utils/past_events.json"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel"
@@ -9,7 +9,6 @@ import { useRouter } from "next/navigation"
 import { Button } from "./ui/button"
 import "./css/events.css"
 import {Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent} from "./ui/card"
-import { useEmblaCarousel } from "embla-carousel-react"
 import "./css/events.css"
 import Autoplay from "embla-carousel-autoplay"
 
@@ -19,12 +18,7 @@ const poppins = Poppins({
   variable: "--font-poppins",
 })
 
-const inriaSerif = Inria_Serif({
-  subsets: ["latin"],
-  weight: ["300", "400", "700"],
-  display: "swap",
-  variable: "--font-inria-serif",
-})
+
 
 const Events = () => {
   const router = useRouter()
@@ -33,7 +27,7 @@ const Events = () => {
     <Card className="event-card">
       <CardHeader>
         <CardTitle className="text-xl font-light">{event.event}</CardTitle>
-        <CardDescription className={inriaSerif.className}>{event.desc}</CardDescription>
+        <CardDescription >{event.desc}</CardDescription>
       </CardHeader>
       <CardContent>
         <img className="event-image" src={event.image || "/placeholder.svg"} alt={event.event} />
@@ -55,7 +49,7 @@ const Events = () => {
   )
 
   return (
-    <section className={`events-section ${poppins.variable} ${inriaSerif.variable}`}>
+    <section className={`events-section ${poppins.variable} `}>
       <div className="events-container">
         <motion.div
           className="events-header"
@@ -64,8 +58,8 @@ const Events = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className={`text-5xl font-light ${poppins.className}`}>EVENTS</h1>
-          <p className={`text-xl text-gray-400 ${inriaSerif.className}`}>Discover our exciting events and activities</p>
+          <h1 className={`text-5xl font-bold ${poppins.className}`}>EVENTS</h1>
+          <p className={`text-xl text-gray-400 `}>Discover our exciting events and activities</p>
         </motion.div>
 
         <div className="events-grid">

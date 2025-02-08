@@ -14,12 +14,6 @@ const poppins = Poppins({
   variable: "--font-poppins",
 })
 
-const inriaSerif = Inria_Serif({
-  subsets: ["latin"],
-  weight: ["300", "400", "700"],
-  display: "swap",
-  variable: "--font-inria-serif",
-})
 
 const Leaderboard = () => {
   const [leaderboardData, setLeaderboardData] = useState([])
@@ -37,16 +31,16 @@ const Leaderboard = () => {
       console.error("Error fetching leaderboard data:", error)
       // Fallback to dummy data if API fails
       setLeaderboardData([
-        { Rank: "1", Name: "rng_58", Score: "7974" },
-        { Rank: "2", Name: "Zenith", Score: "6011" },
-        { Rank: "3", Name: "OrOrZZZ!", Score: "5833" },
-        { Rank: "4", Name: "Petr team", Score: "5792" },
-        { Rank: "5", Name: "jcvb_matthew99", Score: "5731" },
-        { Rank: "6", Name: "Excited", Score: "5403" },
-        { Rank: "7", Name: "dreamoon_love_AA", Score: "5319" },
-        { Rank: "8", Name: "step5", Score: "4951" },
-        { Rank: "9", Name: "W4yneb0t", Score: "4762" },
-        { Rank: "10", Name: "Gullesnuffs", Score: "4737" },
+        { Rank: '1', Name: ' antrikshkatna03', },
+        { Rank: '2', Name: 'harsh580g', },
+        { Rank: '3', Name: 'Navdeep066', },
+        { Rank: '4', Name: 'Tanishq_v010', },
+        { Rank: '5', Name: 'himanshu12102004', },
+        { Rank: '6', Name: 'kashu_06', },
+        { Rank: '7', Name: 'srijansharma1605', },
+        { Rank: '8', Name: 'Aryan3612_', },
+        { Rank: '9', Name: 'Prashant_thakur77', },
+        { Rank: '10', Name: 'Harry_0509', }
       ])
     }
   }
@@ -65,10 +59,10 @@ const Leaderboard = () => {
   }
 
   return (
-    <section className={`leaderboard-section ${poppins.variable} ${inriaSerif.variable}`}>
+    <section className={`leaderboard-section ${poppins.variable} `}>
       <div className="leaderboard-container">
         <motion.h2
-          className={`leaderboard-title ${poppins.className}`}
+          className={`text-5xl font-bold flex justify-center text-center mb-10 ${poppins.className}`}
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -89,8 +83,8 @@ const Leaderboard = () => {
                 <AvatarImage src={`https://api.dicebear.com/6.x/initials/svg?seed=${contestant.Name}`} />
                 <AvatarFallback>{contestant.Name.substring(0, 2)}</AvatarFallback>
               </Avatar>
-              <p className={`contestant-name ${inriaSerif.className}`}>{contestant.Name}</p>
-              <p className={`contestant-score ${poppins.className}`}>{contestant.Score}</p>
+              <p className={`contestant-name `}>{contestant.Name}</p>
+              <p className={`contestant-score `}>{contestant.Score}</p>
               <Medal className={`medal ${getAvatarColor(contestant.Rank)}`} />
             </motion.div>
           ))}
@@ -105,9 +99,9 @@ const Leaderboard = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: index * 0.05 }}
             >
-              <span className={`rank ${poppins.className}`}>{contestant.Rank}</span>
-              <span className={`name ${inriaSerif.className}`}>{contestant.Name}</span>
-              <span className={`score ${poppins.className}`}>{contestant.Score}</span>
+              <span className={``}>{contestant.Rank}</span>
+              <span className={`name `}>{contestant.Name}</span>
+              <span className={` `}>{contestant.Score}</span>
             </motion.div>
           ))}
         </div>

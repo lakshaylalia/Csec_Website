@@ -15,12 +15,7 @@ const poppins = Poppins({
   variable: "--font-poppins",
 })
 
-const inriaSerif = Inria_Serif({
-  subsets: ["latin"],
-  weight: ["300", "400", "700"],
-  display: "swap",
-  variable: "--font-inria-serif",
-})
+
 
 const TeamsPage = () => {
   const [selectedBatch, setSelectedBatch] = useState("")
@@ -62,7 +57,7 @@ const TeamsPage = () => {
   const closeModal = () => setShowModal(false)
 
   return (
-    <section className={`teams-section ${poppins.variable} ${inriaSerif.variable}`}>
+    <section className={`teams-section ${poppins.variable} `}>
       <div className="teams-container">
         <motion.div
           className="teams-header"
@@ -72,13 +67,13 @@ const TeamsPage = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className={`text-7xl font-extrabold mb-4 text-gray-400 ${poppins.className}`}>Meet Our Team</h2>
-          <p className={`text-gray-500 max-w-2xl text-3xl mx-auto font-semibold ${inriaSerif.className}`}>
+          <p className={`text-gray-500 max-w-2xl text-3xl mx-auto font-semibold`}>
             The brilliant minds behind CSEC
           </p>
         </motion.div>
 
         <div className="filter-container">
-          <button onClick={openModal} className={`filter-button ${inriaSerif.className}`}>
+          <button onClick={openModal} className={`filter-button `}>
             Open Filter Options
           </button>
           <SearchBar selectedName={selectedName} handleNameChange={handleNameChange} />
@@ -106,7 +101,7 @@ const TeamsPage = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h3 className={`batch-title ${poppins.className}`}>{batch}</h3>
+              <h3 className={`text-center text-3xl md:text-5xl`}>{batch}</h3>
               <div className="cards-container">
                 {groupedCards[batch].map((card, index) => (
                   <motion.div
@@ -126,8 +121,8 @@ const TeamsPage = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                        <h3 className={`text-xl font-bold mb-1 ${inriaSerif.className}`}>{card.name}</h3>
-                        <p className={`text-sm mb-2 ${inriaSerif.className}`}>{card.quote}</p>
+                        <h3 className={`text-xl font-bold mb-1 `}>{card.name}</h3>
+                        <p className={`text-sm mb-2 `}>{card.quote}</p>
                         <div className="flex space-x-2">
                           {card.instagram && (
                             <a href={card.instagram} target="_blank" rel="noopener noreferrer" className="social-link">

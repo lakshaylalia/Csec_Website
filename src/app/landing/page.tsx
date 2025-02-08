@@ -1,6 +1,6 @@
 "use client"
 
-import { Inria_Sans, Inria_Serif, Poppins } from "next/font/google"
+import { Sansita, Poppins } from "next/font/google"
 import { motion } from "framer-motion"
 import { useState, useEffect } from "react"
 import Typewriter from "typewriter-effect"
@@ -12,11 +12,10 @@ const poppins = Poppins({
   variable: "--font-poppins",
 })
 
-const inriaSerif = Inria_Serif({
-  subsets: ["latin"],
-  weight: ["300", "400", "700"],
+const sansita = Sansita({
   display: "swap",
-  variable: "--font-inria-serif",
+  subsets: ["latin"],
+  weight: ["400", "700"],
 })
 
 const backgroundImages = [
@@ -47,7 +46,7 @@ export default function Landing() {
   }, [])
 
   return (
-    <div className={`landing-container ${poppins.variable} ${inriaSerif.variable}`}>
+    <div className={`landing-container ${poppins.variable}`}>
       {/* {backgroundImages.map((image, index) => (
         <div
           key={index}
@@ -66,7 +65,7 @@ export default function Landing() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <h2 className={`subtitle ${poppins.variable}`}>
+            <h2 className={`subtitle ${sansita.className}`}>
               <Typewriter
                 options={{
                   strings: ["Computer Science Engineers Community"],
@@ -85,7 +84,7 @@ export default function Landing() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
-          <p className="tagline">Empowering the Future, One Code at a Time</p>
+          <p className={`text-lg ${sansita.className}`}>Empowering the Future, One Code at a Time</p>
         </motion.div>
       </div>
     </div>
