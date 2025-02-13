@@ -2,7 +2,7 @@
 import React from "react"
 import { Poppins, Sansita } from "next/font/google"
 import { motion } from "framer-motion"
-import "../../src/components/css/About.css"
+import "../../src/components/css/about.css"
 
 const poppins = Poppins({
     subsets: ["latin-ext"],
