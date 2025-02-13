@@ -26,6 +26,11 @@ const sansita = Sansita({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="csec.svg" />
+      </head>
       <body className={" " + sansita.className}>
         <div className="fixed top-0 left-0 w-full h-full z-[-1]">
           <CanvasAnimation />
