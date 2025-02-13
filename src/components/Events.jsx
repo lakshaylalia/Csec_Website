@@ -78,7 +78,7 @@ const Events = () => {
           >
             <CarouselContent>
               {events.map((event, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 pl-4">
+                <CarouselItem key={index} className="md:basis-1/3 lg:basis-[26%] pl-4">
                   <div className="p-1">
                     <EventCard event={event} />
                   </div>
