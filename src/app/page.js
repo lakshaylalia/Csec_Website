@@ -1,13 +1,20 @@
-import Carousel_Custom from "../components/Carousel_Custom";
+import Leaderboard from "../components/Carousel_Custom";
 import Events from "../components/Events";
-import MasonaryGrid from "../components/MasonaryGrid";
-
-
+import Landing from "./landing/page"
+import About from '../app/about-us/page'
+import Footer from "../components/ui/Footer";
+import HodSay from "../components/HodSay";
+import IOCSay from "../components/IOCSays";
 export default function Home() {
   return (
     <>
-      <Carousel_Custom/>
+      <Landing/>
       <Events/>
+      <About/>
+      <HodSay/>
+      <IOCSay/>
+      <Leaderboard/>
+      <Footer/>
     </>
 
   );

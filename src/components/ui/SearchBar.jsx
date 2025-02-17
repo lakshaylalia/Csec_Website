@@ -8,7 +8,7 @@ const SearchBar = ({ selectedName, handleNameChange }) => {
       placeholder='Search by Name' 
       value={selectedName} 
       onChange={handleNameChange} 
-      className='lg:w-[300px] px-2 py-1 border rounded bg-[#444] text-white border-[#888] my-4'
+      className='lg:w-[300px] px-2 py-2 border rounded bg-[#444] text-white border-[#888] '
     />
   );
 };

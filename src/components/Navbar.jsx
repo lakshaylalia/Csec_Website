@@ -1,55 +1,92 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import Link from "next/link"
-import { Inria_Sans } from "next/font/google";
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import { Poppins, Sansita } from "next/font/google";
+import csecLogo from "../../public/csec.svg";
 
-import { Menu, Search } from "lucide-react"
+const poppins = Poppins({
+    subsets: ["latin-ext"],
+    weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
-const inria = Inria_Sans({
-    display: 'swap',
-    subsets: ['latin'],
-    weight: ["300", "400", "700"]
-})
+const sansita = Sansita({
+    display: "swap",
+    subsets: ["latin"],
+    weight: ["400", "700"],
+});
+
 export default function Navbar() {
-    const [state, setState] = React.useState(false)
+    const [scrolled, setScrolled] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
 
-    const menus = [
-        { title: "Home", path: "/" },
-        { title: "Gallery", path: "/gallery" },
-        { title: "Alumni", path: "/alumni" },
-        { title: "Contact", path: "/contact" },
-    ]
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(window.scrollY > 50);
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     return (
-        <nav className="bg-slate-900 w-full border-b md:border-0">
-            <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
-                <div className="flex items-center gap-4 md:justify-end justify-between py-3 md:py-5 md:block">
-                    <Link href="/">
-                        <img src="csec.svg"/>
+        <motion.nav
+            className={`fixed w-full z-50 transition-all duration-300 text-white/90 ${scrolled ? "bg-black/50 backdrop-blur-md shadow-lg" : "bg-transparent"
+                }`}
+        >
+            <div className="container mx-auto flex justify-between items-center p-4">
+                <Link href="/">
+                    <Image src={csecLogo} alt="CSEC Logo" width={50} height={50} />
+                </Link>
+                <div className="hidden md:flex space-x-4">
+                    <Link href="/" className="hover:text-gray-400 md:text-2xl text-xl">
+                        Home
                     </Link>
-                    <div className="md:hidden">
-                        <button
-                            className={"text-white text-xl outline-none p-2 rounded-md focus:border-gray-300 focus:border "+(inria.className)}
-                            onClick={() => setState(!state)}
-                        >
-                            <Menu />
-                        </button>
-                    </div>
+                    <Link href="/gallery" className="hover:text-gray-400 md:text-2xl text-xl">
+                        Gallery
+                    </Link>
+                    <Link href="/team" className="hover:text-gray-400 md:text-2xl text-xl">
+                        Team
+                    </Link>
                 </div>
-                <div
-                    className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? "block" : "hidden"
-                        }`}
-                >
-                    <ul className="justify-end items-center text-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                        {menus.map((item, idx) => (
-                            <li key={idx} className={"text-white text-xl px-4 hover:text-gray-300 "+(inria.className)}>
-                                <Link href={item.path}>{item.title}</Link>
-                            </li>
-                        ))}
-                    </ul>
+                <div className="md:hidden">
+                    <button
+                        onClick={() => setMenuOpen(!menuOpen)}
+                        className="focus:outline-none"
+                    >
+                        <svg
+                            className="w-6 h-6"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                d="M4 6h16M4 12h16m-7 6h7"
+                            ></path>
+                        </svg>
+                    </button>
                 </div>
             </div>
-        </nav>
-    )
+            {menuOpen && (
+                <div className="md:hidden bg-black/50 backdrop-blur-md shadow-lg">
+                    <div className="flex flex-col space-y-4 p-4">
+                        <Link href="/" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
+                            Home
+                        </Link>
+                        <Link href="/gallery" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
+                            Gallery
+                        </Link>
+                        <Link href="/team" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
+                            Team
+                        </Link>
+                    </div>
+                </div>
+            )}
+        </motion.nav>
+    );
 }

@@ -1,0 +1,160 @@
+.leaderboard-section {
+  background-color: #111;
+  color: white;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.leaderboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.leaderboard-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f0f0f0;
+}
+
+.top-three {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.top-contestant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border: 3px solid;
+}
+
+.avatar.gold {
+  border-color: #ffd700;
+}
+.avatar.silver {
+  border-color: #c0c0c0;
+}
+.avatar.bronze {
+  border-color: #cd7f32;
+}
+
+.contestant-name {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.contestant-score {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.medal {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+}
+
+.medal.gold {
+  color: #ffd700;
+}
+.medal.silver {
+  color: #c0c0c0;
+}
+.medal.bronze {
+  color: #cd7f32;
+}
+
+.other-contestants {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.contestant-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contestant-row:last-child {
+  border-bottom: none;
+}
+
+.rank {
+  font-weight: bold;
+  color: #888;
+}
+
+.name {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.score {
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .leaderboard-section {
+    padding: 4rem 1rem;
+  }
+
+  .leaderboard-container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .leaderboard-section {
+    padding: 3rem 1rem;
+  }
+
+  .leaderboard-title {
+    font-size: 2rem;
+  }
+
+  .top-three {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .contestant-row {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .leaderboard-title {
+    font-size: 1.75rem;
+  }
+
+  .contestant-row {
+    font-size: 0.8rem;
+    padding: 0.75rem;
+  }
+
+  .name {
+    margin-left: 0.5rem;
+  }
+}
+

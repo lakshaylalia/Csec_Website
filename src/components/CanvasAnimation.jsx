@@ -100,10 +100,10 @@ const CanvasAnimation = () => {
       this.x = x;
       this.y = y;
       this.size = Math.random() * 1 + 1;
-      this.lifeSpan = 70;
+      this.lifeSpan = 50;
       this.alpha = 0.1;
-      this.speedX = Math.random() * 2 - 1;
-      this.speedY = Math.random() * 2 - 1;
+      this.speedX = 0.5 * 2 - 1;
+      this.speedY = 0.3 * 2 - 1;
     }
 
     update() {
