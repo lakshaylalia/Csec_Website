@@ -68,7 +68,7 @@ export default function Landing() {
             <h2 className={`subtitle ${sansita.className}`}>
               <Typewriter
                 options={{
-                  strings: ["Computer Science Engineers Community"],
+                  strings: ["Computer Science Engineers' Community"],
                   autoStart: true,
                   loop: true,
                   delay: 50,
