@@ -39,15 +39,18 @@ export default function Navbar() {
                 <Link href="/">
                     <Image src={csecLogo} alt="CSEC Logo" width={50} height={50} />
                 </Link>
-                <div className="hidden md:flex space-x-4">
-                    <Link href="/" className="hover:text-gray-400 md:text-2xl text-xl">
+                <div className="hidden md:flex space-x-8">
+                    {/* <Link href="/" className="hover:text-gray-400 md:text-2xl text-xl">
                         Home
-                    </Link>
+                    </Link> */}
                     <Link href="/gallery" className="hover:text-gray-400 md:text-2xl text-xl">
                         Gallery
                     </Link>
                     <Link href="/team" className="hover:text-gray-400 md:text-2xl text-xl">
                         Team
+                    </Link>
+                    <Link href="/alumni" className="hover:text-gray-400 md:text-2xl text-xl">
+                        Alumni
                     </Link>
                 </div>
                 <div className="md:hidden">
@@ -75,14 +78,17 @@ export default function Navbar() {
             {menuOpen && (
                 <div className="md:hidden bg-black/50 backdrop-blur-md shadow-lg">
                     <div className="flex flex-col space-y-4 p-4">
-                        <Link href="/" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
+                        {/* <Link href="/" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
                             Home
-                        </Link>
+                        </Link> */}
                         <Link href="/gallery" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
                             Gallery
                         </Link>
                         <Link href="/team" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
                             Team
+                        </Link>
+                        <Link href="/alumni" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
+                            Alumni
                         </Link>
                     </div>
                 </div>
