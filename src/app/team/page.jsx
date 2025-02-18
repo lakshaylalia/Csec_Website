@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { Poppins, Inria_Serif } from "next/font/google"
 import Modal from "../../components/ui/Modal"
 import SearchBar from "../../components/ui/SearchBar"
-import alumniData from "../../utils/alumni.json"
+import alumniData from "../../utils/team.json"
 import "../../components/css/team.css"
 import Image from "next/image"
 
