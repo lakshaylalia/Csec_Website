@@ -32,10 +32,7 @@ const TeamsPage = () => {
 
   const filterOptions = [
     { value: "", title: "Select Batch" },
-    { value: "2021", title: "Batch 2021" },
-    { value: "2022", title: "Batch 2022" },
-    { value: "2023", title: "Batch 2023" },
-    { value: "2024", title: "Batch 2024" },
+    { value: "2024", title: "Batch 2024" },,
   ]
 
   const filteredCards = alumniData.filter((card) => {
