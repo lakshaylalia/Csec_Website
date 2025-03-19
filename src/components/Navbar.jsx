@@ -5,7 +5,6 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { Poppins, Sansita } from "next/font/google";
-import csecLogo from "../../public/csec.svg";
 import localFont from "next/font/local";
 
 const Hacked_KerX = localFont({
@@ -52,14 +51,6 @@ export default function Navbar() {
     return time < 10 ? `0${time}` : `${time}`;
   }
 
-  // Set up timer interval
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCountdown(calculateTimeLeft());
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
 
   // Trigger glitch effect every few seconds
   useEffect(() => {
