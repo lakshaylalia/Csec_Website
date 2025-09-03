@@ -135,48 +135,8 @@ export default function Navbar() {
                               }}
                             />
                           </motion.a>
-
-                          {/* Separator */}
-                          <div className="h-7 w-px bg-gray-500 mx-3"></div>
-
-                          {/* HACK Logo - Link to home section */}
-                          <motion.a
-                            href="https://hack.nith.ac.in/"
-                            target="_blank"
-                            className="relative w-[48px] h-[48px] mr-3"
-                            whileHover={{ scale: 1.1 }}
-                            transition={{ duration: 0.3 }}
-                          >
-                            <Image
-                              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image%20%2816%29_20250208_222328_0000-50pdDbAwyrTeA1mMlMT3c72vROO2oA.png"
-                              alt="HACK Logo"
-                              fill
-                              className="object-contain"
-                              style={{
-                                filter:
-                                  "drop-shadow(0 0 5px rgba(117, 2, 15, 0.5))",
-                              }}
-                            />
-                          </motion.a>
                         </motion.div>
-                      ) : (
-                        <motion.div
-                          key="hacktext"
-                          initial={{ opacity: 0, x: -20 }}
-                          animate={{ opacity: 1, x: 0 }}
-                          exit={{ opacity: 0, x: -20 }}
-                          transition={{ duration: 0.3 }}
-                          className={`${Hacked_KerX.className} whitespace-nowrap`}
-                        >
-                          <a
-                            href="https://hack.nith.ac.in/"
-                            target="_blank"
-                            className="text-2xl md:text-5xl font-bold text-[#e63946] drop-shadow-glow ml-1"
-                          >
-                            HACK<span className="text-white"> 5.0</span>
-                          </a>
-                        </motion.div>
-                      )}
+                      ) : null}
                     </AnimatePresence>
                   </div>
                   {/* Nav Links*/}
@@ -276,24 +236,7 @@ export default function Navbar() {
                   />
                 </motion.a>
               </motion.div>
-            ) : (
-              <motion.div
-                key="hacktext"
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.3 }}
-                className={`${Hacked_KerX.className} whitespace-nowrap`}
-              >
-                <a
-                  href="https://hack.nith.ac.in/"
-                  target="_blank"
-                  className="text-2xl md:text-5xl font-bold text-[#e63946] drop-shadow-glow ml-1"
-                >
-                  HACK<span className="text-white"> 5.0</span>
-                </a>
-              </motion.div>
-            )}
+            ) : null}
           </AnimatePresence>
           <div className="md:hidden">
             <button
